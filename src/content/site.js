@@ -13,7 +13,7 @@ export const site = {
   // Leave empty to open the visitor's email app. Paste a free Web3Forms key (web3forms.com) to receive form messages directly.
   web3formsKey: "",
   // HOME VIDEO (optional): put a short .mp4 in the "public" folder (e.g. public/hero.mp4) and set heroVideo: "/hero.mp4". Leave "" to use the slideshow instead.
-  heroVideo: "", heroPoster: "", heroTitle: "Step In To The Past",
+  heroVideo: "/hero.mp4", heroPoster: "/hero-poster.webp", heroTitle: "Step In To The Past",
   // BANNER IMAGE behind each page title. Paste an image link (e.g. "/img/about.jpg"). Empty = plain colour for now.
   pageImages: { tours: "https://historyforthecurious.com/storage/header-images/tours_header_image_PjzUFb6NlK.webp", podcast: "", lectures: "", writings: "https://historyforthecurious.com/storage/header-images/writing_header_image_uOkSS1TooF.webp", testimonials: "", about: "", contact: "", sponsor: "" },
   // PODCAST PLAYER. By default the Podcast page plays the episodes listed in src/content/podcast.js.
