@@ -38,6 +38,6 @@ export const tours = [
       "Third Paragraph.",
       "Fourth Paragraph."
     ],
-    gallery: ["7K9UGlCj8h", "KRLmCiGc6F", "LO6twqBHwj", "bxuZevU3gU"].map((k) => S + `upcoming_tour_${k}.webp`) },
+    gallery: ["/img/basil1.jpg", "/img/basil2.jpg"]},
 ];
 
