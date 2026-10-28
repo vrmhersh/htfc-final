@@ -6,7 +6,7 @@ import { WhatsAppLogo } from "../Logos.jsx";
 import { Btn, Pic, Platforms, Quote, Reveal, TourRow, upcoming, useTitle } from "../ui.jsx";
 
 // HOW LONG the poster picture stays on screen before the video fades in over it (seconds):
-const POSTER_SECONDS = 5;
+const POSTER_SECONDS = 3;
 
 export default function Home() {
   useTitle("");
