@@ -28,8 +28,7 @@ export const tours = [
     ],
     gallery: ["7K9UGlCj8h", "KRLmCiGc6F", "LO6twqBHwj", "bxuZevU3gU"].map((k) => S + `upcoming_tour_${k}.webp`) },
   { id: "holland", title: "Holland", start: "2027-07-12", end: "2027-07-15", status: "open", details: [] },
-];
-{ id: "Fake-Tour-Vrm", title: "Avrumi's imagination", start: "2027-01-01", end: "2027-01-02", status: "open",
+  { id: "Fake-Tour-Vrm", title: "Avrumi's imagination", start: "2027-01-01", end: "2027-01-02", status: "open",
     summary: "Begining in the Hanging Gardens of Babylon, Followed by Herds of Wildebeast Sweeping Down the Savannah and Ending in Torquay",
     leaders: "Basil Fawlty",
     price: "$9555 per person (flights not included; single supplement $475)",
@@ -40,3 +39,5 @@ export const tours = [
       "Fourth Paragraph."
     ],
     gallery: ["7K9UGlCj8h", "KRLmCiGc6F", "LO6twqBHwj", "bxuZevU3gU"].map((k) => S + `upcoming_tour_${k}.webp`) },
+];
+
