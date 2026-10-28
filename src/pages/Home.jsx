@@ -1,14 +1,28 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, MessageCircle, Image as ImageIcon } from "lucide-react";
 import { site } from "../content/site.js";
 import { WhatsAppLogo } from "../Logos.jsx";
 import { Btn, Pic, Platforms, Quote, Reveal, TourRow, upcoming, useTitle } from "../ui.jsx";
 
+// HOW LONG the poster picture stays on screen before the video fades in over it (seconds):
+const POSTER_SECONDS = 5;
+
 export default function Home() {
   useTitle("");
   const [i, setI] = useState(0); const [pause, setPause] = useState(false);
   const video = !!site.heroVideo;
+  // Poster first: the picture stays for POSTER_SECONDS, then the video starts playing and fades in over it.
+  const vref = useRef(null); const [wait, setWait] = useState(true); const [playing, setPlaying] = useState(false);
+  useEffect(() => {
+    if (!video) return;
+    const id = setTimeout(() => setWait(false), POSTER_SECONDS * 1000); return () => clearTimeout(id);
+  }, [video]);
+  useEffect(() => {
+    if (wait || !vref.current) return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return; // keep the still picture
+    const p = vref.current.play(); if (p && p.catch) p.catch(() => {}); // if the browser blocks playback, the poster simply stays
+  }, [wait]);
   useEffect(() => {
     if (pause || video) return;
     const id = setInterval(() => setI((x) => (x + 1) % site.slides.length), 6000); return () => clearInterval(id);
@@ -20,7 +34,7 @@ export default function Home() {
     <section className="hero" onMouseEnter={() => setPause(true)} onMouseLeave={() => setPause(false)}
       style={video && site.heroPoster ? { backgroundImage: `url("${site.heroPoster}")` } : undefined}>
       {video
-        ? <video className="herovid" src={site.heroVideo} poster={site.heroPoster || undefined} autoPlay muted loop playsInline preload="auto" aria-hidden="true" />
+        ? <video ref={vref} className="herovid" style={{ opacity: !wait && playing ? 1 : 0, transition: "opacity 1.8s ease" }} src={site.heroVideo} poster={site.heroPoster || undefined} onPlaying={() => setPlaying(true)} muted loop playsInline preload="auto" aria-hidden="true" />
         : site.slides.map((s, k) => <div key={k} className={`slide ${k === i ? "on" : ""}`} style={{ backgroundImage: `url("${s.img}")` }} />)}
       <div className="shade" />
       {!video && site.showPlaceholders && <span className="phtag"><ImageIcon size={14} aria-hidden="true" /> Optional: a short background video can go here · site.js → heroVideo</span>}
