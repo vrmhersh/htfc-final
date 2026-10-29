@@ -123,8 +123,7 @@ form .btn{justify-self:start}.msg{padding:.9rem 1.1rem;border-radius:3px;margin:
   .trow .pill{margin-left:0;margin-right:.5rem;margin-top:.3rem}
   .dim .trow{border-left-color:rgba(217,184,120,.55)}
 }
-/* ---------- phone: show the LEFT side of the home banner picture and video (not the centre) ---------- */
+/* ---------- phone: show the LEFT side of the home banner picture (the video stays centred) ---------- */
 @media(max-width:700px){
   .hero{background-position:left center}
-  .herovid{object-position:left center}
 }
