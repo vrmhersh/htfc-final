@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, MessageCircle, Image as ImageIcon } from "lucide-react";
 import { site } from "../content/site.js";
 import { WhatsAppLogo } from "../Logos.jsx";
-import { Btn, Pic, Platforms, Quote, Reveal, TourRow, upcoming, useTitle } from "../ui.jsx";
+import { Btn, Pic, Platforms, Quote, Reveal, TourRow, Voices, upcoming, useTitle } from "../ui.jsx";
 
 // HOW LONG the poster picture stays on screen before the video fades in over it (seconds):
 const POSTER_SECONDS = 3;
@@ -71,25 +71,27 @@ export default function Home() {
         <Btn to="/tours">All tours <ArrowRight size={18} /></Btn></Reveal>
     </div></section>
 
-    <section className="band green center"><div className="wrap">
+    <Voices tone="green" />
+
+    <section className="band navy center"><div className="wrap">
       <Reveal><h2 className="serif">Past tours</h2><p className="narrow mx">{site.pastCountries}</p></Reveal>
       <div className="strip">{site.images.pastStrip.map((s) => <img key={s} src={s} alt="" loading="lazy" />)}</div>
     </div></section>
 
-    <section className="band navy"><Reveal className="wrap narrow">
+    <section className="band green"><Reveal className="wrap narrow">
       <h2 className="serif">About</h2><p>{site.about[0]}</p><p>{site.about[1]}</p>
       <div className="stats">{site.stats.map(([n, l]) => <div key={n}><b className="serif">{n}</b><span>{l}</span></div>)}</div>
       <Btn to="/about">Find out more <ArrowRight size={18} /></Btn>
     </Reveal></section>
 
-    <section className="band green center"><Reveal className="wrap">
+    <section className="band navy center"><Reveal className="wrap">
       <h2 className="serif">Articles and Musings</h2>
       <Link to="/writings" className="imglink" aria-label="Read the articles and musings">
         <Pic src={site.homeWritingsImage} alt="Articles and musings by Rabbi Aubrey Hersh" label="Articles and Musings picture" hint="site.js → homeWritingsImage" ratio="16/9" />
       </Link>
     </Reveal></section>
 
-    <section className="band navy center"><Reveal className="wrap">
+    <section className="band green center"><Reveal className="wrap">
       <h2 className="serif">Listen to the podcast</h2><Platforms />
       <div className="btns mid"><Btn to="/podcast">Play episodes <ArrowRight size={18} /></Btn></div>
     </Reveal></section>

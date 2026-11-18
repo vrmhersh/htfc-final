@@ -1,11 +1,14 @@
 // ===== EDIT ME: TESTIMONIALS =====  To add one: add a line to the right year: ["quote", "Name (Place)"],  New year? Copy a whole { year, quotes } block.
+// Optional third part = a tour word, e.g. ["quote", "Name (Place)", "provence"]. That quote then also shows on tour pages whose title contains that word.
+// HOME PAGE and tour pages show the people named here (copy the name exactly as written below):
+export const featuredNames = ["Anne S. (Israel)", "Perry Zelik (New York)", "Allen Szrolvits (New York)"];
 export const testimonials = [
   { year: 2025, quotes: [
     ["Rachel & I would like to thank you for a most inspiring trip", "Ashley Rogoff (London)"],
     ["It was truly incredible. I’m still absorbing everything", "Avraham Henry (Manchester)"],
     ["Shabbat Shalom and Chodesh Tov, y’all! You’re the best!", "Vlad Seder (Kentucky)"],
     ["Beautiful experience! And to my fellow travelers, until next time!", "Mallory Caplan (Greater Springfield, Mass.)"],
-    ["It was a true pleasure meandering through Provence and its environs with so many new friends", "Nicky Rosenthal (London)"],
+    ["It was a true pleasure meandering through Provence and its environs with so many new friends", "Nicky Rosenthal (London)", "provence"],
     ["It was the first time we did a group tour and we absolutely loved every minute. Looking forward to seeing everyone on another trip", "Perry Zelik (New York)"],
     ["A more spiritually, intellectually, aesthetically, fraternally, and gastronomically satisfying trip I could not imagine", "Anne S. (Israel)"],
     ["We would like to thank you for this special VIP trip. Aubrey you are truly gifted", "Yanky Frank (New York)"] ] },
