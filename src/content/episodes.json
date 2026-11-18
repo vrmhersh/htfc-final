@@ -1,72 +1,1448 @@
 {
  "note": "Written by the Update podcast job (scripts/update-podcast.mjs). Do not edit by hand.",
- "updated": "",
+ "updated": "2026-11-18",
  "episodes": [
   {
+   "n": 203,
+   "title": "Rome III - The Renaissance, Sforno & Edom",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/203-rome-iii-the-renaissance-sforno-edom/",
+   "audio": "https://mcdn.podbean.com/mf/web/pbzbuxi235zccaf2/HC097_-_Ep_203_-_Rome_III8yvv9.mp3",
+   "date": "2026-11-10"
+  },
+  {
+   "n": 202,
+   "title": "Rome II - In the Shadow of the Vatican (1007-1550)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/202-rome-1007-1550-%e2%80%93-in-the-shadow-of-the-vatican/",
+   "audio": "https://mcdn.podbean.com/mf/web/i33kyfpn37efnn42/HC097_-_Ep_202_-_Rome_IIb1n9o.mp3",
+   "date": "2026-10-29"
+  },
+  {
    "n": 201,
-   "title": "The Jews of Ancient Rome (100BCE – 550CE)",
+   "title": "The Jews of Ancient Rome (100BCE - 550CE)",
    "link": "https://rabbiaubreyhersh.podbean.com/e/201-the-jews-of-ancient-rome-100bce-550ce/",
-   "podbeanId": "g4b9g-1b84883"
+   "audio": "https://mcdn.podbean.com/mf/web/qxqug4vet7hdsfxc/HC096_-_Ep_201_-_Rome9619u.mp3",
+   "date": "2026-10-14"
   },
   {
    "n": 200,
-   "title": "Doña Gracia Nasi (1510–1569): Visionary, Banker & Saviour",
+   "title": "Doña Gracia Nasi (1510-1569) – Visionary, Banker & Saviour",
    "link": "https://rabbiaubreyhersh.podbean.com/e/200-dona-gracia-nasi-1510-1569-%e2%80%93-visionary-banker-saviour/",
-   "podbeanId": "dkyjh-1b713ec"
+   "audio": "https://mcdn.podbean.com/mf/web/rhwv6aen2u2bnigc/HC095_-_Ep_200_-_Dona_Gracia8ebbm.mp3",
+   "date": "2026-09-29"
   },
   {
    "n": 199,
-   "title": "Rav Yosef Karo II: The Maggid, a Voice from Heaven",
+   "title": "Rav Yosef Karo II - The Maggid: A Voice From Heaven",
    "link": "https://rabbiaubreyhersh.podbean.com/e/199-rav-yosef-karo-ii-the-maggid-a-voice-from-heaven/",
-   "podbeanId": "jigke-1b5d4bb"
+   "audio": "https://mcdn.podbean.com/mf/web/a57v3wuzmyqtqrzf/HC094_-_Ep_199_-_RYK_Part_2744y0.mp3",
+   "date": "2026-09-15"
   },
   {
    "n": 198,
    "title": "Rabbi Yosef Karo I: The Story behind the Shulchan Aruch",
    "link": "https://rabbiaubreyhersh.podbean.com/e/198-rabbi-yosef-karo-1488-1575-the-high-stakes-story-behind-the-shulchan-aruch/",
-   "podbeanId": "znw7j-1b4d174"
+   "audio": "https://mcdn.podbean.com/mf/web/2kj6wzdgdj486hi2/HC093_-_Ep_198_-_Bes_Yosef_Assembled_mixdown_v46a9od.mp3",
+   "date": "2026-09-02"
   },
   {
    "n": 197,
-   "title": "Tisha B’Av: Two Harrowing Letters, Two Powerful Testimonies",
+   "title": "Tisha B'av: Two Harrowing Letters - Two Powerful Testimonies",
    "link": "https://rabbiaubreyhersh.podbean.com/e/197-two-harrowing-letters-two-powerful-testimonies/",
-   "podbeanId": "yuigj-1b185f8"
+   "audio": "https://mcdn.podbean.com/mf/web/mkcij3hiywrmdenp/HC092_-_Ep_197_-_Holocaust_Part_3_Assembled_mixdown_1_6as18.mp3",
+   "date": "2026-07-21"
   },
   {
    "n": 196,
-   "title": "The WWII Hero Who Rescued Budapest’s Jews",
+   "title": "The WWII Hero who Rescued Budapest's Jews",
    "link": "https://rabbiaubreyhersh.podbean.com/e/196-the-wwii-hero-who-rescued-budapests-jews/",
-   "podbeanId": "y5tdd-1b0d394"
+   "audio": "https://mcdn.podbean.com/mf/web/7n4i8hb86qx9tc6t/HC091_-_Ep_196_-_Holocaust_Part_2_Assembled_mixdown7rc6i.mp3",
+   "date": "2026-07-12"
   },
   {
    "n": 195,
-   "title": "The Holocaust: An Unprecedented Crime and an American Betrayal",
+   "title": "The Holocaust - An Unprecedented Crime and an American Betrayal?",
    "link": "https://rabbiaubreyhersh.podbean.com/e/195-the-holocaust-an-unprecedented-crime-and-an-american-betrayal/",
-   "podbeanId": "8h2du-1afc635"
+   "audio": "https://mcdn.podbean.com/mf/web/bre43bgcghrd2gf6/HC090_-_Ep_195_-_Holocaust_Part_1_Assembled_mixdown_Edited6ef1j.mp3",
+   "date": "2026-06-28"
   },
   {
    "n": 194,
-   "title": "Three Extraordinary 20th-Century Lives (feat. Dr Yossi Adler & Rabbi Dr Akiva Tatz)",
+   "title": "Three Extraordinary 20th Century Lives feat. Dr Yossi Adler & Rabbi Dr Akiva Tatz",
    "link": "https://rabbiaubreyhersh.podbean.com/e/194-three-extraordinary-20th-century-lives-feat-dr-yossi-adler-rabbi-dr-akiva-tatz/",
-   "podbeanId": "tz868-1ae922e"
+   "audio": "https://mcdn.podbean.com/mf/web/ysh3qsugjc4g9ry6/HC087_-_Ep_194_-_Medicine_Part_2_Assembled_mixdown_NRa97ih.mp3",
+   "date": "2026-06-12"
   },
   {
    "n": 193,
-   "title": "Vaccines, Potions & Charlatans: Jewish Medicine in the 19th Century",
+   "title": "Vaccines, Potions & Charlatans - Jewish Medicine in the 19th Century.",
    "link": "https://rabbiaubreyhersh.podbean.com/e/193-vaccines-potions-charlatans-jewish-medicine-in-the-19th-century/",
-   "podbeanId": "4zz3q-1ad5309"
+   "audio": "https://mcdn.podbean.com/mf/web/kyzypqaakas6hv2e/HC086_-_Ep_193_-_Medicine_Part_1_Assembled_mixdown7kdpz.mp3",
+   "date": "2026-05-28"
   },
   {
    "n": 192,
-   "title": "Reform vs Orthodoxy: The Battle of 19th-Century Europe",
+   "title": "Reform vs Orthodoxy: The Battle of 19th Century Europe",
    "link": "https://rabbiaubreyhersh.podbean.com/e/192-reform-vs-orthodoxy-the-battle-of-19th-century-europe/",
-   "podbeanId": "4d98z-1ac1436"
+   "audio": "https://mcdn.podbean.com/mf/web/gknmfxn6z2655ncc/HC085_-_Ep_192_-_Reform_2_Assembled_mixdown_v17it5m.mp3",
+   "date": "2026-05-13"
   },
   {
    "n": 191,
-   "title": "Moses Mendelssohn: Father of Reform",
+   "title": "Moses Mendelssohn - Father of Reform?",
    "link": "https://rabbiaubreyhersh.podbean.com/e/191-moses-mendelssohn-father-of-reform/",
-   "podbeanId": "3rf5c-1aad8b0"
+   "audio": "https://mcdn.podbean.com/mf/web/qzsfsm689jsgeeeu/HC084_-_Ep_191_-_Mendlesohn_Assembled_mixdown6h5y5.mp3",
+   "date": "2026-04-28"
+  },
+  {
+   "n": 190,
+   "title": "Hesped: Mrs Fernande Hersh a''h (1930 - 2026)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/hesped-mrs-fernande-hersh-ah-1930-2026/",
+   "audio": "https://mcdn.podbean.com/mf/web/75hvd7btnfaibktx/f9f8-bc06-4935-a946-0458dd9d41ec.mp3",
+   "date": "2026-04-21"
+  },
+  {
+   "n": 189,
+   "title": "Baruch Dayan HaEmes: The Passing of Rabbi Aubrey Hersh’s Mother",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/baruch-dayan-haemes-the-passing-of-rabbi-aubrey-hersh-s-mother/",
+   "audio": "https://mcdn.podbean.com/mf/web/6vmq8g2gfdw7qkfz/Rabbi_Hersh_Mother.mp3",
+   "date": "2026-04-16"
+  },
+  {
+   "n": 188,
+   "title": "Bread of Defiance: Matzah and Pesach in the Soviet Union",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/190-bread-of-defiance-matzah-and-pesach-in-the-soviet-union/",
+   "audio": "https://mcdn.podbean.com/mf/web/aafcm98sdy3yfbkx/HC083_-_Ep_190_-_Passover_Assembled_mixdown_FINAL8pxbq.mp3",
+   "date": "2026-03-26"
+  },
+  {
+   "n": 187,
+   "title": "Chida: 40 Years of Danger, Journeys & Discovery",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/189-chida-40-years-of-danger-journeys-discovery/",
+   "audio": "https://mcdn.podbean.com/mf/web/embgpbia3agg93pb/HC082_-_Ep_189_-_Life_and_Adventures_Assembled_mixdownbrxft.mp3",
+   "date": "2026-03-19"
+  },
+  {
+   "n": 186,
+   "title": "Journey through Music's Mysticism, Sound & History - featuring Alex Clare",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/188-journey-through-musics-mysticism-sound-history-featuring-alex-clare/",
+   "audio": "https://mcdn.podbean.com/mf/web/p6iegrxfwwckzmmg/HC081_-_Ep_188_-_Music_Assembled_mixdown8diuo.mp3",
+   "date": "2026-03-04"
+  },
+  {
+   "n": 185,
+   "title": "Wine in the Modern Era: feat. Nathan Herzog (President of Kedem Wines) & Rabbi Akiva Padwa (International Kashrus expert)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/187-wine-in-the-modern-era-feat-nathan-herzog-president-of-kedem-wines-rabbi-akiva-padwa-international-kashrus-expert/",
+   "audio": "https://mcdn.podbean.com/mf/web/jj47j5gfbaxsb23g/HC080_-_Ep_187_-_Wine_Part_2_Fully_Assembled_mixdown9nv4z.mp3",
+   "date": "2026-02-23"
+  },
+  {
+   "n": 184,
+   "title": "Wine - Romans to the Rishonim in History & Halacha",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/186-wine-romans-to-the-rishonim-in-history-halacha/",
+   "audio": "https://mcdn.podbean.com/mf/web/uwm94k99yw22w657/HC079_-_Ep_186_-_Wine_Assembled_mixdownahrud.mp3",
+   "date": "2026-02-15"
+  },
+  {
+   "n": 183,
+   "title": "Spanish Inquisition - 350 Years of Jewish Defiance",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/185-spanish-inquisition-350-years-of-jewish-defiance/",
+   "audio": "https://mcdn.podbean.com/mf/web/nmwqjkthahzkag9g/HC078_-_Ep_185_-_Spain_Part_3_Assembled_mixdown87yes.mp3",
+   "date": "2026-02-03"
+  },
+  {
+   "n": 182,
+   "title": "Spanish Jewry II - 1460 - 1492: The Walls Close In",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/184-spanish-jewry-ii-1460-1492-the-walls-close-in/",
+   "audio": "https://mcdn.podbean.com/mf/web/zx7gqbuvw45i3ras/HC077_-_Ep_184_-_Spain_Part_2_Assembled_mixdown6z238.mp3",
+   "date": "2026-01-27"
+  },
+  {
+   "n": 181,
+   "title": "Spanish Jewry 1348-1460: Into the Abyss",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/183-spanish-jewry-1348-1460-into-the-abyss/",
+   "audio": "https://mcdn.podbean.com/mf/web/wjti6mmtkz5czcns/HC076_-_Ep_183_-_Spain_Part_1_Assembled_mixdown74gl9.mp3",
+   "date": "2026-01-14"
+  },
+  {
+   "n": 180,
+   "title": "10th Teves: Our History - The Message - Our Future",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/182-10th%c2%a0teves-our-history-the-message-our-future/",
+   "audio": "https://mcdn.podbean.com/mf/web/3ajdcyptag7vm2tg/HC075_-_Ep_182_-_Various_Assembled_mixdownbh0kd.mp3",
+   "date": "2025-12-30"
+  },
+  {
+   "n": 179,
+   "title": "The Menorah - History's Greatest Jewish Mystery",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/181-the-menorah-historys-greatest-jewish-mystery/",
+   "audio": "https://mcdn.podbean.com/mf/web/n2ijvmyc9mt3h2jf/HC074_-_Ep_181_-_Menorah_Assembled_mixdown7pzb3.mp3",
+   "date": "2025-12-21"
+  },
+  {
+   "n": 178,
+   "title": "Chanukah - Celebrating the War We Didn't Win?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/180-chanukah-celebrating-the-war-we-didnt-win/",
+   "audio": "https://mcdn.podbean.com/mf/web/zisihcc4nc6z9u7s/HC073_-_Ep_180_-_Chanuka_Assembled_mixdown88gg8.mp3",
+   "date": "2025-12-11"
+  },
+  {
+   "n": 177,
+   "title": "The Most Unbelievable Story in Modern History",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/179-the-most-unbelievable-story-in-modern-history/",
+   "audio": "https://mcdn.podbean.com/mf/web/cxdk9cwuk5g4pmdv/HC072_-_Ep_179_-_Lincoln_Assembled_mixdownaz3nb.mp3",
+   "date": "2025-12-04"
+  },
+  {
+   "n": 176,
+   "title": "The Vanished Jews of England II: 1290-1650",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/178-the-vanished-jews-of-england-ii-1290-1650/",
+   "audio": "https://mcdn.podbean.com/mf/web/4abvuav57dkz4b9f/HC071_-_Ep_177_-_English_Briefs_Part_2_assembled_mixdown8kvto.mp3",
+   "date": "2025-11-25"
+  },
+  {
+   "n": 175,
+   "title": "The Vanished Jews of England: 1290-1650",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/177%c2%a0the-vanished-jews-of-england-1290-1650/",
+   "audio": "https://mcdn.podbean.com/mf/web/kpcesiwkqi4u9kxg/HC070_-_Ep_176_Assembled_mixdown9ar55.mp3",
+   "date": "2025-11-17"
+  },
+  {
+   "n": 174,
+   "title": "Yishmael vs Yisrael X: Echoes of Conflict - feat. Rabbi Zev Leff & Lord David Wolfson",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/176-yishmael-vs-yisrael-x-echoes-of-conflict-feat-rabbi-zev-leff-lord-david-wolfson/",
+   "audio": "https://mcdn.podbean.com/mf/web/avixmd93tmfngmyz/HC069_-_Ep_175_-_3_parter_Assembled_mixdown_Edit_Without_31aryj6.mp3",
+   "date": "2025-11-06"
+  },
+  {
+   "n": 173,
+   "title": "What is Jewish History?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/what-is-jewish-history/",
+   "audio": "https://mcdn.podbean.com/mf/web/ji5spnkan9ub5bh6/VID-20251020-WA0023.mp3",
+   "date": "2025-10-26"
+  },
+  {
+   "n": 172,
+   "title": "David Friedman - The Ambassador Who Reshaped the Middle East",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/175-david-friedman-the-ambassador-who-reshaped-the-middle-east/",
+   "audio": "https://mcdn.podbean.com/mf/web/9yugcdxiskepdvyz/HFTC_2025_-_David_Friedman7igun.mp3",
+   "date": "2025-10-23"
+  },
+  {
+   "n": 171,
+   "title": "Disputations II - 1263-1414 / Rav Meir Arik 100th Yarzeit",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/174-disputations-ii-1263-1414-rav-meir-arik-100th-yarzeit/",
+   "audio": "https://mcdn.podbean.com/mf/web/xwv4yrmn6f2aq3zc/HC068_-_Ep_174_-_Disputations_Part_2_Assembled_mixdown6udto.mp3",
+   "date": "2025-09-29"
+  },
+  {
+   "n": 170,
+   "title": "Disputations I - Paris 1240",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/173-the-disputations-i-paris-1240/",
+   "audio": "https://mcdn.podbean.com/mf/web/ua69fuxqn3i4jbbh/HC067_-_Ep_173_-_Disputations_Part_1_Assembled_mixdownb62xm.mp3",
+   "date": "2025-09-21"
+  },
+  {
+   "n": 169,
+   "title": "Ramban II - The Church & Eretz Yisrael (feat. Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/172-ramban-ii-the-church-eretz-yisrael-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/3tdmbwib3dmgsd4h/HC066_-_Ep_172_-_Ramban_Part_2_Assembled_mixdown_Finalbp8t9.mp3",
+   "date": "2025-09-10"
+  },
+  {
+   "n": 168,
+   "title": "Ramban I - The Early Conflicts (1194-1270)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/171-ramban-i-the-early-conflicts-1194-1270/",
+   "audio": "https://mcdn.podbean.com/mf/web/99j2bqx696eashv3/HC065_-_Ep_171_-_Ramban_Part_1_Assembled_mixdown7b2rr.mp3",
+   "date": "2025-09-04"
+  },
+  {
+   "n": 167,
+   "title": "Holocaust Shadows IV - Survivors, Liberators & Rescuers",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/170-holocaust-shadows-iv-survivors-liberators-rescuers/",
+   "audio": "https://mcdn.podbean.com/mf/web/ygf9rc2erw28v25b/HC064_-_Ep_170_-_Holocaust_Part_4_Full_Assembly_mixdown_1_991vv.mp3",
+   "date": "2025-08-02"
+  },
+  {
+   "n": 166,
+   "title": "Holocaust Shadows III - The Survivor",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/169-holocaust-shadows-iii-survivors/",
+   "audio": "https://mcdn.podbean.com/mf/web/7ycsrshf7kzdr6ah/HC063_-_Ep_169_-_Holocaust_Part_3_Assembled_mixdown6wwzk.mp3",
+   "date": "2025-07-30"
+  },
+  {
+   "n": 165,
+   "title": "Holocaust Shadows II - The Forgeries",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/168-holocaust-shadows-ii-the-forgeries/",
+   "audio": "https://mcdn.podbean.com/mf/web/qvbymkqxkxapctwd/HC062_-_Ep_168_-_Holocaust_Part_2_Assembled_mixdown78ult.mp3",
+   "date": "2025-07-23"
+  },
+  {
+   "n": 164,
+   "title": "Holocaust Shadows I: The Forger",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/167-holocaust-shadows-i-the-forger/",
+   "audio": "https://mcdn.podbean.com/mf/web/gpuai7b3yxx6mtie/HC061_-_Ep_167_-_Holocaust_Part_1_Assembled_mixdown9dix3.mp3",
+   "date": "2025-07-18"
+  },
+  {
+   "n": 163,
+   "title": "Jerusalem III : 1099-1568",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/166-jerusalem-iii-1099-1568/",
+   "audio": "https://mcdn.podbean.com/mf/web/qhfsdycxkba9k99u/HC060_-_Ep_166_-_Jerusalem_Assembled_mixdown_FINAL78y3h.mp3",
+   "date": "2025-07-10"
+  },
+  {
+   "n": 162,
+   "title": "Jerusalem II: 638-1098",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/165-jerusalem-ii-638-1098/",
+   "audio": "https://mcdn.podbean.com/mf/web/mf4upy45rb7u5bva/HC059_-_Ep_165_-_Jerusalem_Part_2_Assembled_mixdown70083.mp3",
+   "date": "2025-06-27"
+  },
+  {
+   "n": 161,
+   "title": "Jerusalem I: 70-636CE",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/164-jerusalem-i-70-636ce/",
+   "audio": "https://mcdn.podbean.com/mf/web/ue4ec8rp2gymtbws/HC058_-_Ep_164_-_Jerusalem_Part_1_Assembled_mixdownb3rl3.mp3",
+   "date": "2025-06-19"
+  },
+  {
+   "n": 160,
+   "title": "Oral Law II - Who is Right? Who is a Scholar?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/163-oral-law-ii-who-is-right-who-is-a-scholar/",
+   "audio": "https://mcdn.podbean.com/mf/web/d2g857zaxrmvvcgd/HC057_-_Ep_163_-_Oral_Law_Part_2_Assembled_FINALbuwso.mp3",
+   "date": "2025-06-11"
+  },
+  {
+   "n": 159,
+   "title": "Oral Law I (Torah She'Baal Peh) - Definitions",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/162-the-oral-law-torah-shebaal-peh-i-definitions/",
+   "audio": "https://mcdn.podbean.com/mf/web/kfd4tc29urmxdcr6/HC056_-_Special_Episode_Assembled_mixdown9xq0l.mp3",
+   "date": "2025-05-29"
+  },
+  {
+   "n": 158,
+   "title": "Mavericks II : Villains & Heroes",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/161-mavericks-ii-villains-heroes/",
+   "audio": "https://mcdn.podbean.com/mf/web/fc6mesrajez6ceac/HC054_-_Ep_161_-_Mavericks_Part_2_Assembled_mixdown9t22t.mp3",
+   "date": "2025-05-20"
+  },
+  {
+   "n": 157,
+   "title": "Mavericks I: Crime in the USA",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/160-mavericks-i-crime-in-the-usa/",
+   "audio": "https://mcdn.podbean.com/mf/web/3733bst3jb6c8fxp/HC053_-_Ep_160_-_Mavericks_Part_1_Assembled_mixdown7gclh.mp3",
+   "date": "2025-05-10"
+  },
+  {
+   "n": 156,
+   "title": "Eruv II : The Controversies",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/159-eruv-ii-the-controversies/",
+   "audio": "https://mcdn.podbean.com/mf/web/75txu6x35sh95vyr/HC052_-_Ep_159_-_Eruv_Special_-_Part_2_Assembled_mixdownbnq5o.mp3",
+   "date": "2025-05-01"
+  },
+  {
+   "n": 155,
+   "title": "Eruv I : The History",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/158-eruvin-i/",
+   "audio": "https://mcdn.podbean.com/mf/web/u6ztyutetjmjkg2z/HC051_-_Ep_158_-_Special_Part_1_Assembled_mixdown67d8s.mp3",
+   "date": "2025-04-27"
+  },
+  {
+   "n": 154,
+   "title": "The Russian Empire V – Genius, Identity & Revolution",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/157-%e2%80%93-the-russian-empire-v-%e2%80%93-genius-identity-revolution/",
+   "audio": "https://mcdn.podbean.com/mf/web/j8pg74bqpmczxn7v/HC050_-_Ep_157_-_Russia_Part_5_Assembled_mixdown9t6n1.mp3",
+   "date": "2025-04-08"
+  },
+  {
+   "n": 153,
+   "title": "The Russian Empire IV - Freedom, Poverty & Pogroms",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/156-the-russian-empire-iv-freedom-poverty-pogroms/",
+   "audio": "https://mcdn.podbean.com/mf/web/x83kwt3kf3i3cqyc/HC049_-_Ep_156_-_Russia_Part_4_Assembled_mixdownal6oy.mp3",
+   "date": "2025-03-26"
+  },
+  {
+   "n": 152,
+   "title": "The Russian Empire III - Fight or Flight?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/155-the-russian-empire-iii-fight-or-flight/",
+   "audio": "https://mcdn.podbean.com/mf/web/r755mfkjdixknpv2/HC048_-_Ep_155_-_Russia_Part_3_Assembled_mixdown9ey2t.mp3",
+   "date": "2025-03-19"
+  },
+  {
+   "n": 151,
+   "title": "The Russian Empire II – Persecution, Heroism & Informers",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/154-the-russian-empire-ii-%e2%80%93-persecution-heroism-informers/",
+   "audio": "https://mcdn.podbean.com/mf/web/93gy4pnz522qa49m/HC047_-_Ep_154_-_Russia_Part_2_Assembled_mixdown6yiwi.mp3",
+   "date": "2025-03-11"
+  },
+  {
+   "n": 150,
+   "title": "The Russian Empire I - Origins, Conquest & Confinement",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/153-the-russian-empire-i-origins-conquest-confinement/",
+   "audio": "https://mcdn.podbean.com/mf/web/s9hdsqgaip9fa53v/HC046_-_Ep_153_-_Russia_Assembled_mixdown9o174.mp3",
+   "date": "2025-03-03"
+  },
+  {
+   "n": 149,
+   "title": "Jewish Physicians III – Ottoman Vignettes and Halachic Questions feat. Rabbi Dr Akiva Tatz",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/152-jewish-physicians-iii-%e2%80%93-ottoman-vignettes-and-halachic-questions-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/gnpbqunzggetfg3n/HC045_-_Ep_152_-_Medicine_Part_3_Assembled_FINAL_mixdown65ddh.mp3",
+   "date": "2025-02-13"
+  },
+  {
+   "n": 148,
+   "title": "Jewish Physicians II - China & the Middle East feat. Rabbi Dr Akiva Tatz",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/151-jewish-physicians-in-history-ii-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/w3ifv5rxbufy3h3z/HC044_-_Ep_151_-_Medicine_Pt_2_Assembled_mixdown6vnqh.mp3",
+   "date": "2025-02-06"
+  },
+  {
+   "n": 147,
+   "title": "Jewish Physicians I - European Challenges feat. Rabbi Dr Akiva Tatz",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/150-jewish-physicians-in-history-i-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/mhndkgrkvf9429jj/HC043_-_Ep_150_-_Medicine_Part_1_Assembled_mixdownagf6w.mp3",
+   "date": "2025-01-29"
+  },
+  {
+   "n": 146,
+   "title": "Vienna III : Leading to Darkness",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/149-vienna-iii-leading-to-darkness/",
+   "audio": "https://mcdn.podbean.com/mf/web/a9mdsg36agistx5n/HC042_-_Ep_149_-_Jews_in_Vienna_Part_III_Assembled_mixdown9no4e.mp3",
+   "date": "2025-01-16"
+  },
+  {
+   "n": 145,
+   "title": "Vienna II - pre-WWI: Freud, Herzl & Rabbi Flesch",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/148-vienna-pre-wwi-freud-herzl-rabbi-flesch/",
+   "audio": "https://mcdn.podbean.com/mf/web/agnf6afiqs4vjcze/HC041_-_Ep_148_-_Jews_of_Vienna_Part_II_Assembled_mixdownafdpl.mp3",
+   "date": "2025-01-07"
+  },
+  {
+   "n": 144,
+   "title": "The BBC: Biased Broadcasting Corporation - The Insiders View feat. Trevor Asserson",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/147-the-bbc-biased-broadcasting-corporation-the-insiders-view-feat-trevor-assesrson/",
+   "audio": "https://mcdn.podbean.com/mf/web/g5qyy2y4dwqf2mzk/HC040_-_Asserson_Podcast_Assembled_mixdown_FINAL7yk83.mp3",
+   "date": "2024-12-26"
+  },
+  {
+   "n": 143,
+   "title": "Vienna I -19th Century: Friends or Enemies?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/146-19th-century-vienna-%c2%a0friends-or-enemies/",
+   "audio": "https://mcdn.podbean.com/mf/web/75mb5w4rq8fc4nbw/HC039_-_Ep_146_-_Jews_in_Vienna_Part_I_Assembled_mixdown6acdx.mp3",
+   "date": "2024-12-18"
+  },
+  {
+   "n": 142,
+   "title": "Chanukah, the West & the ICC Judgement",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/145-chanukah-the-west-the-icc-judgement/",
+   "audio": "https://mcdn.podbean.com/mf/web/wv8c6z7wx6jmk98z/HC038_-_Ep_145_-_Truth_vs_Untruth_Assembled_mixdown8vjmc.mp3",
+   "date": "2024-12-05"
+  },
+  {
+   "n": 141,
+   "title": "The Rothschilds III - Five Brothers",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/144-the-rothschilds-iii-five-brothers/",
+   "audio": "https://mcdn.podbean.com/mf/web/u94wk96xq7mjmbdd/HC037-_Rothschild_Pt_3_Assembled_mixdownbix1m.mp3",
+   "date": "2024-11-27"
+  },
+  {
+   "n": 140,
+   "title": "The Rothschilds II - Mayer Amschel: Founder of a Dynasty",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-rothschilds-ii-mayer-amschel-founder-of-a-dynasty/",
+   "audio": "https://mcdn.podbean.com/mf/web/hjmvxtqs4b5ve6j5/HC036_-_Rothschild_Pt_2_Assembled_mixdownbwdsh.mp3",
+   "date": "2024-11-19"
+  },
+  {
+   "n": 139,
+   "title": "The Rothschilds I - Mayer Amschel: Unusual Origins",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/mayer-amschel-rothschild-the-improbable-millionaire/",
+   "audio": "https://mcdn.podbean.com/mf/web/7jsss5iyvtagvgnv/HC035_-_Rothschild_Assembled_mixdown6it4n.mp3",
+   "date": "2024-11-12"
+  },
+  {
+   "n": 138,
+   "title": "Why History?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/why-history/",
+   "audio": "https://mcdn.podbean.com/mf/web/9c78t7qd7792xh9c/History_for_the_Curious_20246821f.mp3",
+   "date": "2024-11-02"
+  },
+  {
+   "n": 137,
+   "title": "The Greatest Fundraisers in History",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-greatest-fundraisers-in-history/",
+   "audio": "https://mcdn.podbean.com/mf/web/6tn2wyjgkixgp33v/HC034_-_The_Greatest_Fundraisers_in_Jewish_History_Assembled_mixdowna48sx.mp3",
+   "date": "2024-10-29"
+  },
+  {
+   "n": 136,
+   "title": "Dayan Yechezkel Abramsky II – Clashes, Victories & Losses",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/dayan-yechezkel-abramsky-ii-%e2%80%93-clashes-victories-losses/",
+   "audio": "https://mcdn.podbean.com/mf/web/s2mz67cpckf4aam9/HC033_-_Terra_Part_II_Assembled_mixdownakbfe.mp3",
+   "date": "2024-10-14"
+  },
+  {
+   "n": 135,
+   "title": "Dayan Yechezkel Abramsky I - Rosh Hashana Episode",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/dayan-yechezkel-abramsky-part-one-1886-1931/",
+   "audio": "https://mcdn.podbean.com/mf/web/hrb3vzfsz53sbnvr/HC032_-_Terra_Part_I_Assembled_mixdown8cbnh.mp3",
+   "date": "2024-10-01"
+  },
+  {
+   "n": 134,
+   "title": "Medieval England II - Apostates, Criminals & Leaders",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/medieval-england-ii-apostates-criminals-leaders/",
+   "audio": "https://mcdn.podbean.com/mf/web/9fqzi55fcu2s92ex/HC031_-_Medieval_English_Jury_Part_II_Assembled_v2_mixdown7fpia.mp3",
+   "date": "2024-09-24"
+  },
+  {
+   "n": 133,
+   "title": "Medieval England I - Promise, Opportunity & Betrayal",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/medieval-england-i-promise-opportunity-betrayal/",
+   "audio": "https://mcdn.podbean.com/mf/web/zp7qxt8ipv5s379s/HC030_-_Medieval_English_Jury_Assembled_mixdown8nvia.mp3",
+   "date": "2024-09-17"
+  },
+  {
+   "n": 132,
+   "title": "Understanding Halacha, History & Change: Taking Interest on a Loan (feat. Dayan Y. Posen)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/understanding-halacha-history-change-taking-interest-on%c2%a0a-loan/",
+   "audio": "https://mcdn.podbean.com/mf/web/zve3azqwmeh7iua3/HC029_-_Seminar_Assembled_mixdown_FINAL7pnh1.mp3",
+   "date": "2024-09-10"
+  },
+  {
+   "n": 131,
+   "title": "Tisha B'Av Episode - The Hideout in Slovakia",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/tisha-bav-episode-the-hideout-in-slovakia/",
+   "audio": "https://mcdn.podbean.com/mf/web/i6wgek6u56rqrtjd/HC028_-_Hebrew_Assembled_mixdown7rjib.mp3",
+   "date": "2024-08-12"
+  },
+  {
+   "n": 130,
+   "title": "Holocaust Identities IV - The Church, The Red Cross & Nuremberg",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-identities-iv-the-church-the-red-cross-nuremberg/",
+   "audio": "https://mcdn.podbean.com/mf/web/qzgwxhzph4fdcwqg/HC027_-_Holocaust_IV_-_The_Church_Part_II_Assembled_mixdownb3zfs.mp3",
+   "date": "2024-08-11"
+  },
+  {
+   "n": 129,
+   "title": "Holocaust Identities III - Hitler’s Olympics, Nation & Church",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-identities-iii-hitler-s-olympics-nation-church/",
+   "audio": "https://mcdn.podbean.com/mf/web/hwfgckuea6rhj7gj/HC026_-_Holocaust_III_Assembled_mixdown98v9g.mp3",
+   "date": "2024-08-05"
+  },
+  {
+   "n": 128,
+   "title": "Holocaust Identities II – Secret Soldiers Part 2",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-identities-%e2%80%93-secret-soldiers-ii/",
+   "audio": "https://mcdn.podbean.com/mf/web/vh7gn8qyztes82pw/HC025_-_Holocaust_II_-_Silent_Soldiers_Assembled_mixdown7aoq3.mp3",
+   "date": "2024-07-28"
+  },
+  {
+   "n": 127,
+   "title": "Holocaust Identities I - Secret Soldiers Part 1",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-identities-secret-soldiers-i/",
+   "audio": "https://mcdn.podbean.com/mf/web/ehp7darcp65q33i4/HC024_-_Holocaust_I_-_Assembled_mixdown_FINAL9sokv.mp3",
+   "date": "2024-07-22"
+  },
+  {
+   "n": 126,
+   "title": "Rabbi Akiva Eger II - Rulings, Plague & Portrait",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/rabbi-akiva-eger-ii-rulings-plague-portrait/",
+   "audio": "https://mcdn.podbean.com/mf/web/2bi5xb597ejbbrku/HC023_-_Assembled_mixdownajm4i.mp3",
+   "date": "2024-07-11"
+  },
+  {
+   "n": 125,
+   "title": "Rabbi Akiva Eger I - Genius, Battles & Compassion",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/rabbi-akiva-eger-i-genius-battles-compassion/",
+   "audio": "https://mcdn.podbean.com/mf/web/qg3qyyr7mej2d95b/HC022_-_Assembled_mixdown83805.mp3",
+   "date": "2024-06-25"
+  },
+  {
+   "n": 124,
+   "title": "Kabbalah II - Heresy : Spain 1290-1350",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/kabbalah-ii-heresy-spain-1290-1350/",
+   "audio": "https://mcdn.podbean.com/mf/web/qxvuzrskrvphac42/HC021-_Spain_V_Assembled_mixdown93y2x.mp3",
+   "date": "2024-06-14"
+  },
+  {
+   "n": 123,
+   "title": "Kabbalah I - Controversy : Spain 1250-1295",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/spanish-jewry-iv-kabbalah-conflict-corruption/",
+   "audio": "https://mcdn.podbean.com/mf/web/mn7vcsvrjg4bn8v6/HC020_-_Spain_IV_Assembled_mixdown8kpqa.mp3",
+   "date": "2024-06-02"
+  },
+  {
+   "n": 122,
+   "title": "Spanish Jewry III - Targets of Resentment: Prominent Jewish Figures in Spain",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/spanish-jewry-iii-targets-of-resentment-prominent-jewish-figures-in-spain/",
+   "audio": "https://mcdn.podbean.com/mf/web/8fhrv8wtmtd7pfiu/HC019_-_Spain_III_Assembled_mixdownaun76.mp3",
+   "date": "2024-05-24"
+  },
+  {
+   "n": 121,
+   "title": "Spanish Jewry II - The Golden Age : Poetry, Power and Politics",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/spanish-jewry-ii-711-1066/",
+   "audio": "https://mcdn.podbean.com/mf/web/tdsyqmfz27u8rwr4/HC018_-_Spain_II_Assembled_mixdown6z7m8.mp3",
+   "date": "2024-05-17"
+  },
+  {
+   "n": 120,
+   "title": "Spanish Jewry I - The Dark Ages: The Forced Conversion of the Jews",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/spanish-jewry-i-the-visigoths/",
+   "audio": "https://mcdn.podbean.com/mf/web/km9yb5xbv5ecad89/HC017_-_Spain_I_-_Assembled_mixdown_FINAL7yu94.mp3",
+   "date": "2024-05-07"
+  },
+  {
+   "n": 119,
+   "title": "Responsa in History III",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/responsa-in-history-iii/",
+   "audio": "https://mcdn.podbean.com/mf/web/ix5i3k8ksb3bdtq4/HC016_-_Assembled_mixdownabggv.mp3",
+   "date": "2024-04-24"
+  },
+  {
+   "n": 118,
+   "title": "Financial Responsa in History II - Shuls, Politics & Power (feat. Dayan Y Posen)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/responsa-in-history-ii-synagogues-politics-power-feat-dayan-y-posen/",
+   "audio": "https://mcdn.podbean.com/mf/web/px3b9knyrwcb3p74/HC015_-_Fully_Assembled_v2_mixdownb4np2.mp3",
+   "date": "2024-04-12"
+  },
+  {
+   "n": 117,
+   "title": "Financial Responsa in History I - Taxes, Charity & Freedom (feat. Dayan Y Hool)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/responsa-in-history-halacha-feat-dayan-yonason-d-hool/",
+   "audio": "https://mcdn.podbean.com/mf/web/w642wk/HC014_-_Fully_Assembled_mixdownbwgp5.mp3",
+   "date": "2024-04-02"
+  },
+  {
+   "n": 116,
+   "title": "Yishmael vs Yisrael X – A personal account in Gaza",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-x-%e2%80%93-a-personal-account-in-gaza/",
+   "audio": "https://mcdn.podbean.com/mf/web/sehshy/HC011_-_Soldier_Assembled_Revised_mixdown94hni.mp3",
+   "date": "2024-03-26"
+  },
+  {
+   "n": 115,
+   "title": "Douglas Murray - Raw Opinion on the Israel Conflict",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/douglas-murray-raw-opinion-on-the-israel-conflict/",
+   "audio": "https://mcdn.podbean.com/mf/web/ztsbgs/HC012_-_Douglas_Murrray_-_Assembled_FINAL_mixdown8szni.mp3",
+   "date": "2024-03-18"
+  },
+  {
+   "n": 114,
+   "title": "The Karaites III - Unusual Episodes",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the%c2%a0karaites%c2%a0iii-unusual-episodes/",
+   "audio": "https://mcdn.podbean.com/mf/web/53n52j/HC013_-_The_Karaites_pt_3_Assembled_mixdownam4ps.mp3",
+   "date": "2024-03-10"
+  },
+  {
+   "n": 113,
+   "title": "The Karaites II - Forgeries & History",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-karaites-ii-forgeries-history/",
+   "audio": "https://mcdn.podbean.com/mf/web/usufay/HC010_-_Assembled_mixdown6lptb.mp3",
+   "date": "2024-02-25"
+  },
+  {
+   "n": 112,
+   "title": "The Karaites I - Origins & Practices",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-karaites-i-origins-practices/",
+   "audio": "https://mcdn.podbean.com/mf/web/ktw3ag/HC009_-_Fully_Assembled_mixdownb59d2.mp3",
+   "date": "2024-02-14"
+  },
+  {
+   "n": 111,
+   "title": "500 Years Ago: February 1524",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/500-years-ago-february-1524/",
+   "audio": "https://mcdn.podbean.com/mf/web/yv8369/HC008_-_Assembled_Episode_mixdown83019.mp3",
+   "date": "2024-02-06"
+  },
+  {
+   "n": 110,
+   "title": "Yishmael vs Yisrael IX - The Father of a Hostage",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-ix-the-father-of-a-hostage/",
+   "audio": "https://mcdn.podbean.com/mf/web/npcsq7/HC007_-_Fully_Assembled_Episode_mixdownb6sjw.mp3",
+   "date": "2024-01-31"
+  },
+  {
+   "n": 109,
+   "title": "Yishmael vs Yisrael VIII - The ICJ",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-viii-the-icj/",
+   "audio": "https://mcdn.podbean.com/mf/web/sbpamc/HC006_-_Extra_Episode_Assembled_mixdownbsr29.mp3",
+   "date": "2024-01-23"
+  },
+  {
+   "n": 108,
+   "title": "The Letters Which Made History - Part III",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the%c2%a0letters%c2%a0which-made-history-part-iii/",
+   "audio": "https://mcdn.podbean.com/mf/web/yyithi/HC005_-_Jewish_Letters_Pt_3_Assembled_mixdown_FINAL7iy0g.mp3",
+   "date": "2024-01-18"
+  },
+  {
+   "n": 107,
+   "title": "The Letters Which Made History - Part II",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-letters-which-made-history-part-ii/",
+   "audio": "https://mcdn.podbean.com/mf/web/h4cizp/HC004_-_Assembled_Episode_FINAL_mixdown6zj22.mp3",
+   "date": "2024-01-10"
+  },
+  {
+   "n": 106,
+   "title": "The Letters Which Made History - Part I",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-letters-which-made-history-part-i/",
+   "audio": "https://mcdn.podbean.com/mf/web/it92kp/HC003_-_Assembled_Episode_FINAL_mixdownbjdor.mp3",
+   "date": "2024-01-04"
+  },
+  {
+   "n": 105,
+   "title": "Yishmael vs Yisrael VII - Vital Answers for Difficult Times (feat. Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-vii-vital-answers-for-difficult-times-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/wf9zr5/HC002_-_Assembled_v2_mixdownbaf6j.mp3",
+   "date": "2023-12-26"
+  },
+  {
+   "n": 104,
+   "title": "Yishmael vs Yisrael VI - The Harder Questions II (feat. Lord David Wolfson KC)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-vi-the-harder-questions-feat-lord-david-wolfson-kc/",
+   "audio": "https://mcdn.podbean.com/mf/web/myj9xi/HC001_mixdown.mp3",
+   "date": "2023-12-15"
+  },
+  {
+   "n": 103,
+   "title": "Yishmael vs Yisrael V - The Harder Questions I (feat. R’ Yitzchok Breitowitz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-v-the-harder-questions-feat-r-yitzchok-breitowitz/",
+   "audio": "https://mcdn.podbean.com/mf/web/z6i5xv/Yishmael_vs_Yisrael_V_-_Correct_Length73rdx.mp3",
+   "date": "2023-12-05"
+  },
+  {
+   "n": 102,
+   "title": "Yishmael vs Yisrael IV - The Hostages (feat. Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-iv-the-hostages-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/uftedr/JLE_POD_128_R_Tatz_R_Hersh_MASTER8ipgr.mp3",
+   "date": "2023-11-22"
+  },
+  {
+   "n": 101,
+   "title": "London Through the Eyes of the Curious",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/london-through-the-eyes-of-the-curious/",
+   "audio": "https://mcdn.podbean.com/mf/web/6nxny9/JLE_POD_127_EXTRAak4ua.mp3",
+   "date": "2023-11-09"
+  },
+  {
+   "n": 100,
+   "title": "Rambam III - The Final Years",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/rambam-iii-the-final-years/",
+   "audio": "https://mcdn.podbean.com/mf/web/isa7jc/JLE_POD_127_MASTER_CUT64fpq.mp3",
+   "date": "2023-11-08"
+  },
+  {
+   "n": 99,
+   "title": "Yishmael vs Yisrael III - Mesiras Nefesh (feat. Rabbi Y.Y Jacobson)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-iii-mesiras-nefesh-feat-rabbi-yy-jacobson/",
+   "audio": "https://mcdn.podbean.com/mf/web/gj3i25/JLE_POD_E100_MASTER6u2ht.mp3",
+   "date": "2023-10-31"
+  },
+  {
+   "n": 98,
+   "title": "Yishmael vs Yisrael II - The Israeli - Arab Conflict",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-ii-the-israeli-arab-conflict/",
+   "audio": "https://mcdn.podbean.com/mf/web/rnm7mp/JLE_POD_126_R_Hersh60j0h.mp3",
+   "date": "2023-10-19"
+  },
+  {
+   "n": 97,
+   "title": "Yishmael vs Yisrael I - A Biblical Conflict",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/yishmael-vs-yisrael-i-a-biblical-conflict/",
+   "audio": "https://mcdn.podbean.com/mf/web/tkrp5n/JLE_POD_125_R_Hersh7be2b.mp3",
+   "date": "2023-10-17"
+  },
+  {
+   "n": 96,
+   "title": "Rambam II - Egypt",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/rambam-ii-egypt/",
+   "audio": "https://mcdn.podbean.com/mf/web/wdtfkr/JLE_POD_123_R_Hersh_NEW_INTRO9e2h4.mp3",
+   "date": "2023-10-10"
+  },
+  {
+   "n": 95,
+   "title": "Rambam I - The Early Years",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/rambam-i-the-early-years/",
+   "audio": "https://mcdn.podbean.com/mf/web/rh976w/JLE_POD_122_R_Hersh_RE-EDITant5l.mp3",
+   "date": "2023-10-06"
+  },
+  {
+   "n": 94,
+   "title": "The French Revolution III (1799-1808)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-french-revolution-iii-1799-1808/",
+   "audio": "https://mcdn.podbean.com/mf/web/dpae83/JLE_POD_122_R_Hershaitvy.mp3",
+   "date": "2023-09-12"
+  },
+  {
+   "n": 93,
+   "title": "The French Revolution II (1789-1799)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-french-revolution-ii-1789-1799/",
+   "audio": "https://mcdn.podbean.com/mf/web/7zjjwq/JLE_POD_121_R_Hershbahc1.mp3",
+   "date": "2023-09-05"
+  },
+  {
+   "n": 92,
+   "title": "The French Revolution I – The Prelude (1552-1788)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/french-revolution-i-%e2%80%93-the-prelude-1552-1788/",
+   "audio": "https://mcdn.podbean.com/mf/web/wtg6ak/JLE_Pod_120_R_Hersh_MASTERa4w9h.mp3",
+   "date": "2023-08-30"
+  },
+  {
+   "n": 91,
+   "title": "The Silent War IV - The Prosecutor",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-silent-war-iv-the-prosecutor/",
+   "audio": "https://mcdn.podbean.com/mf/web/w6qjgy/JLE_POD_119_R_HERSH_LAST_MAIN_CUTbmvb3.mp3",
+   "date": "2023-07-26"
+  },
+  {
+   "n": 90,
+   "title": "The Silent War III - Trading with the Enemy",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-silent-war-iii-trading-with-the-enemy/",
+   "audio": "https://mcdn.podbean.com/mf/web/4jz22s/JLE_POD_118_Rabbi_Hersh92m0q.mp3",
+   "date": "2023-07-19"
+  },
+  {
+   "n": 89,
+   "title": "The Silent War II - IBM’s Deceit",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-silent-war-ii-ibm-s-deceit/",
+   "audio": "https://mcdn.podbean.com/mf/web/7v4j9z/JLE_POD_117_Rabbi_Hershaj5b2.mp3",
+   "date": "2023-07-13"
+  },
+  {
+   "n": 88,
+   "title": "The Silent War I - Deceiving the Gestapo",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-silent-war-i-deceiving-the-gestapo/",
+   "audio": "https://mcdn.podbean.com/mf/web/4xu2gp/JLE_POD_116_Rabbi_Hersh9muvu.mp3",
+   "date": "2023-07-04"
+  },
+  {
+   "n": 87,
+   "title": "The Sinai Revelation II (1312BCE) - Challenges & Deniers",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-sinai-revelation-1312bce-ii-%c2%a0challenges-deniers/",
+   "audio": "https://mcdn.podbean.com/mf/web/ezzpvd/JLE_POD_115_Rabbi_Hersh8jg8l.mp3",
+   "date": "2023-06-28"
+  },
+  {
+   "n": 86,
+   "title": "The Sinai Revelation I (1312BCE) - Exploding the Myths",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-sinai-revelation-1312bce-exploding-the-myths/",
+   "audio": "https://mcdn.podbean.com/mf/web/si7kd3/JLE_POD_114_Rabbi_Hershadqum.mp3",
+   "date": "2023-06-26"
+  },
+  {
+   "n": 85,
+   "title": "The Maharam of Rottenberg II (1215-1307)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-maharam-of-rottenberg-ii-1215-1307/",
+   "audio": "https://mcdn.podbean.com/mf/web/hdrg42/JLE_POD_113_Rabbi_Hersh_FINAL_EDIT8q4kq.mp3",
+   "date": "2023-06-15"
+  },
+  {
+   "n": 84,
+   "title": "The Maharam of Rotenberg I (1215-1293) featuring Rabbi S.F Zimmerman",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-maharam-of-rotenberg%c2%a0i-1215-1293-featuring-rabbi-sf-zimmerman/",
+   "audio": "https://mcdn.podbean.com/mf/web/yn6wdd/JLE_POD_112_MASTERaqgpk.mp3",
+   "date": "2023-06-07"
+  },
+  {
+   "n": 83,
+   "title": "A Look Back at History",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/a-look-back-at%c2%a0history/",
+   "audio": "https://mcdn.podbean.com/mf/web/3z4s8v/JLE_POD_111_Rabbi_Hersh6okmj.mp3",
+   "date": "2023-05-31"
+  },
+  {
+   "n": 82,
+   "title": "Budapest III (1686-1877) - The Hapsburg Years",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/budapest-iii-1686-1877-the-hapsburg%c2%a0years/",
+   "audio": "https://mcdn.podbean.com/mf/web/r2dmpj/JLE_POD_110_Rabbi_Hersh72z4t.mp3",
+   "date": "2023-05-24"
+  },
+  {
+   "n": 81,
+   "title": "Budapest II (1526-1686) - The Ottoman Era",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/budapest-ii-1526-1686-the-ottoman-era/",
+   "audio": "https://mcdn.podbean.com/mf/web/qb7di3/JLE_POD_109_Rabbi_Hersh8v08l.mp3",
+   "date": "2023-05-17"
+  },
+  {
+   "n": 80,
+   "title": "Budapest I (1037-1526) - Kings, Money & Religion",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/budapest-i-1037-1526-kings-money-religion/",
+   "audio": "https://mcdn.podbean.com/mf/web/yxi6xg/JLE_POD_108_Rabbi_Hershadj9n.mp3",
+   "date": "2023-05-10"
+  },
+  {
+   "n": 79,
+   "title": "The Unknown Genius III - Life on the Run",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-unknown-genius-iii-life-on-the-run/",
+   "audio": "https://mcdn.podbean.com/mf/web/hbcwvm/JLE_POD_107_Rabbi_Hersharaka.mp3",
+   "date": "2023-05-03"
+  },
+  {
+   "n": 78,
+   "title": "The Unknown Genius II - His Later Years",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-unknown-genius-ii-his-later-years/",
+   "audio": "https://mcdn.podbean.com/mf/web/rjteqk/JLE_POD_106_Rabbi_Hersh7mijj.mp3",
+   "date": "2023-04-26"
+  },
+  {
+   "n": 77,
+   "title": "The Unknown Genius I - His Early Life",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-unknown-genius-i-his-early-life/",
+   "audio": "https://mcdn.podbean.com/mf/web/ufbagz/JLE_POD_105_Rabbi_Hershatdr4.mp3",
+   "date": "2023-04-18"
+  },
+  {
+   "n": 76,
+   "title": "17th Century Traitors IV - Aftermath: 350 Years of Chaos",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/17th-century-traitors-iv-aftermath-350-years-of-chaos/",
+   "audio": "https://mcdn.podbean.com/mf/web/v3p6v9/JLE_POD_104_Rabbi_Hersh9kbr9.mp3",
+   "date": "2023-04-03"
+  },
+  {
+   "n": 75,
+   "title": "17th Century Traitors III - Spinoza Ex-communicated",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/17th-century-traitors-iii-spinoza-ex-communicated/",
+   "audio": "https://mcdn.podbean.com/mf/web/ae4hij/JLE_POD_103_Rabbi_Hershbu3uk.mp3",
+   "date": "2023-03-22"
+  },
+  {
+   "n": 74,
+   "title": "17th Century Traitors II - Shabbetai Tzvi (1665-1676)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/17th-century-traitors-ii-shabbetai-zvi-1665-1676/",
+   "audio": "https://mcdn.podbean.com/mf/web/qza7xs/JLE_POD_102_Rabbi_Hersha1f8u.mp3",
+   "date": "2023-03-14"
+  },
+  {
+   "n": 73,
+   "title": "17th Century Traitors I - Shabbetai Tzvi (1626-1665)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/17th-century-traitors-i-shabbetai-zvi/",
+   "audio": "https://mcdn.podbean.com/mf/web/ew57w8/JLE_POD_101_Rabbi_Hershb06ri.mp3",
+   "date": "2023-03-01"
+  },
+  {
+   "n": 72,
+   "title": "The Vilna Gaon III - Leadership & Controversy",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-vilna-goan%c2%a0iii-leadership-controversy/",
+   "audio": "https://mcdn.podbean.com/mf/web/uxk39w/JLE_POD_100_Rabbi_Hersh6kxdc.mp3",
+   "date": "2023-02-22"
+  },
+  {
+   "n": 71,
+   "title": "The Vilna Gaon II - When Heaven Intervened (featuring Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-vilna-gaon-ii-when-heaven-intervened-featuring-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/w45yjb/JLE_POD_99_VG2_R_H_R_T_MASTERbcx7w.mp3",
+   "date": "2023-02-14"
+  },
+  {
+   "n": 70,
+   "title": "The Vilna Gaon I - An Introduction & a Mathematical Riddle (featuring Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-vilna-gaon-i-an-introduction-a-mathematical-riddle-featuring-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/49hdb3/JLE_POD_98_VG1_R_H_AND_R_T9874a.mp3",
+   "date": "2023-02-08"
+  },
+  {
+   "n": 69,
+   "title": "Royal Family Conflicts & Jewish Consequences",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/royal-family-conflicts-jewish-consequences/",
+   "audio": "https://mcdn.podbean.com/mf/web/7jfxet/JLE_POD_97_Rabbi_Hersh_MASTER9p3nc.mp3",
+   "date": "2023-01-29"
+  },
+  {
+   "n": 68,
+   "title": "Holocaust Reflections III - Swiss Gold",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-reflections-iii-the-cover-up/",
+   "audio": "https://mcdn.podbean.com/mf/web/x4k8c3/JLE_POD_96_Rabbi_Hersh69p3p.mp3",
+   "date": "2023-01-17"
+  },
+  {
+   "n": 67,
+   "title": "Holocaust Reflections II - The Theft",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-reflections-ii-the-theft/",
+   "audio": "https://mcdn.podbean.com/mf/web/u2fq7p/JLE_POD_95_Rabbi_Hersh9ktq9.mp3",
+   "date": "2023-01-10"
+  },
+  {
+   "n": 66,
+   "title": "Holocaust Reflections I - The Undaunted",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-reflections-i-the-undaunted/",
+   "audio": "https://mcdn.podbean.com/mf/web/f9ejh2/JLE_POD_94_Rabbi_Hersh5zv0i.mp3",
+   "date": "2023-01-03"
+  },
+  {
+   "n": 65,
+   "title": "History of History for The Curious",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/history-of-history-for-the-curious/",
+   "audio": "https://mcdn.podbean.com/mf/web/9xgyz9/JLE_POD_PROMO_AUDIO9lzgk.mp3",
+   "date": "2022-12-19"
+  },
+  {
+   "n": 64,
+   "title": "What Happened to the Chashmona’im?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/what-happened-to-the-chashmona-im/",
+   "audio": "https://mcdn.podbean.com/mf/web/8r8byp/JLE_POD_92_Rabbi_Hersh6wz7v.mp3",
+   "date": "2022-12-15"
+  },
+  {
+   "n": 63,
+   "title": "The Origins of Christianity III",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/origins-of-christianity-iii/",
+   "audio": "https://mcdn.podbean.com/mf/web/r9mvgg/JLE_POD_91_Rabbi_Hershawa28.mp3",
+   "date": "2022-12-06"
+  },
+  {
+   "n": 62,
+   "title": "The Origins of Christianity II",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/origins-of-christianity-ii/",
+   "audio": "https://mcdn.podbean.com/mf/web/mj2dt7/JLE_POD_90_Rabbi_Hershaozl9.mp3",
+   "date": "2022-11-29"
+  },
+  {
+   "n": 61,
+   "title": "The Origins of Christianity I",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-origins-and-invention-of-christianity-i/",
+   "audio": "https://mcdn.podbean.com/mf/web/2xcypy/JLE_POD_89_Rabbi_Hersh6s17w.mp3",
+   "date": "2022-11-23"
+  },
+  {
+   "n": 60,
+   "title": "The Jews & Britain’s Prime Ministers III",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-jews-britain-s-prime-ministers-iii-the-jew-bill-1753/",
+   "audio": "https://mcdn.podbean.com/mf/web/c6vp4x/JLE_POD_88_Rabbi_Hersh6lm8a.mp3",
+   "date": "2022-11-16"
+  },
+  {
+   "n": 59,
+   "title": "The Jews & Britain’s Prime Ministers II",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-jews-britain-s-prime-ministers-ii/",
+   "audio": "https://mcdn.podbean.com/mf/web/bvia8b/JLE_POD_87_Rabbi_Hershb5c4w.mp3",
+   "date": "2022-11-08"
+  },
+  {
+   "n": 58,
+   "title": "The Jews & Britain’s Prime Ministers I",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-jews-england-s-prime-ministers-i/",
+   "audio": "https://mcdn.podbean.com/mf/web/avdphi/JLE_POD_86_Rabbi_Hersh7msrk.mp3",
+   "date": "2022-11-02"
+  },
+  {
+   "n": 57,
+   "title": "Printing IV - The Legacies",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/printing-iv-the-legacies/",
+   "audio": "https://mcdn.podbean.com/mf/web/3bh77a/JLE_POD_85_Rabbi_Hershb2oyh.mp3",
+   "date": "2022-10-26"
+  },
+  {
+   "n": 56,
+   "title": "Printing III - Deceptions & Self-Deceptions",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/printing-iii-deceptions-self-deceptions/",
+   "audio": "https://mcdn.podbean.com/mf/web/w8epbs/JLE_POD_83_Rabbi_Hersh6avrz.mp3",
+   "date": "2022-10-13"
+  },
+  {
+   "n": 55,
+   "title": "Printing II - The Printing Revolution",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/printers-of-the-book-ii-the-printing-revolution/",
+   "audio": "https://mcdn.podbean.com/mf/web/4jr7ie/JLE_POD_81_Rabbi_Hershaihfh.mp3",
+   "date": "2022-09-29"
+  },
+  {
+   "n": 54,
+   "title": "Printing I - All the King’s Men",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/printers-of-the-book-i-all-the-king-s-men/",
+   "audio": "https://mcdn.podbean.com/mf/web/9smi7k/JLE_POD_81_reMASTER_Rabbi_Hersh696y7.mp3",
+   "date": "2022-09-20"
+  },
+  {
+   "n": 53,
+   "title": "Jews, Queens & Kings - A Special Tribute to Queen Elizabeth II",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/jews-queens-kings-a-special-tribute-to-queen-elizabeth-ii/",
+   "audio": "https://mcdn.podbean.com/mf/web/gwea99/JLE_POD_79_MASTER_Rabbi_Hersh_and_Rabbi_Tatzbbr6y.mp3",
+   "date": "2022-09-14"
+  },
+  {
+   "n": 52,
+   "title": "Maharal of Prague II - (featuring Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/maharal-of-prague-ii-featuring-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/uhg75q/JLE_POD_78_MASTER_R_Hersh_and_R_Tatz9gvff.mp3",
+   "date": "2022-09-06"
+  },
+  {
+   "n": 51,
+   "title": "Maharal of Prague I (featuring Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/maharal-of-prague-i-featuring-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/gq62bb/JLE_POD_77_Rabbi_Hersh_and_Rabbi_Tatz9hmfn.mp3",
+   "date": "2022-08-30"
+  },
+  {
+   "n": 50,
+   "title": "Holocaust V - Defying the Nazis",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-v-defying-the-nazis/",
+   "audio": "https://mcdn.podbean.com/mf/web/2289c8/JLE_POD_76_Rabbi_Hersh8xcrq.mp3",
+   "date": "2022-08-04"
+  },
+  {
+   "n": 49,
+   "title": "Holocaust IV - Collaborators & Opponents",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-iv-collaborators-opponents/",
+   "audio": "https://mcdn.podbean.com/mf/web/9mug6p/JLE_POD_75_Rabbi_Hersh8l8qd.mp3",
+   "date": "2022-07-31"
+  },
+  {
+   "n": 48,
+   "title": "The Holocaust III - Holocaust Denial: Why & Who cares?",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-holocaust-iii-holocaust-denial-why-who-cares/",
+   "audio": "https://mcdn.podbean.com/mf/web/7xb2xb/JLE_POD_74_Rabbi_Hershb7mfn.mp3",
+   "date": "2022-07-21"
+  },
+  {
+   "n": 47,
+   "title": "The Holocaust II - Holocaust Denial: How & Who",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-holocaust-ii-holocaust-denial-how-who/",
+   "audio": "https://mcdn.podbean.com/mf/web/vvuc93/JLE_POD_73_Rabbi_Hersh7cwf4.mp3",
+   "date": "2022-07-19"
+  },
+  {
+   "n": 46,
+   "title": "The Holocaust I - Heroes & Villains",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-holocaust-i-heroes-villains/",
+   "audio": "https://mcdn.podbean.com/mf/web/zbmvte/JLE_POD_72_Rabbi_Hersh7o3fp.mp3",
+   "date": "2022-07-13"
+  },
+  {
+   "n": 45,
+   "title": "Venice II - The Personalities: 1516-1866",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/venice-ii-the-personalities-1516-1866/",
+   "audio": "https://mcdn.podbean.com/mf/web/ncue5d/JLE_POD_71_Rabbi_Hersh6k18s.mp3",
+   "date": "2022-06-30"
+  },
+  {
+   "n": 44,
+   "title": "Venice I - The Origins: 1204-1516",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/venice-i-the-origins-1204-1516/",
+   "audio": "https://mcdn.podbean.com/mf/web/3m59wb/JLE_POD_70_Rabbi_Hersh772sw.mp3",
+   "date": "2022-06-21"
+  },
+  {
+   "n": 43,
+   "title": "Chasidus II -Leadership & Survival: 1772",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/chasidus-ii-leadership-survival-1772/",
+   "audio": "https://mcdn.podbean.com/mf/web/76gmk6/JLE_POD_69_Rabbi_Hersh7ynpo.mp3",
+   "date": "2022-06-12"
+  },
+  {
+   "n": 42,
+   "title": "Chasidus I -The Controversy: 1772",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/1772-the-controversy-of-chassidus/",
+   "audio": "https://mcdn.podbean.com/mf/web/icfh4i/JLE_POD_68_Rabbi_Hershbrr2d.mp3",
+   "date": "2022-05-31"
+  },
+  {
+   "n": 41,
+   "title": "Genizah IV - Poetry, Government & the European Saga",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/genizah-iv-poetry-government-the-european-saga/",
+   "audio": "https://mcdn.podbean.com/mf/web/pnf7kw/JLE_POD_67_Rabbi_Hersh6xeqg.mp3",
+   "date": "2022-05-24"
+  },
+  {
+   "n": 40,
+   "title": "Geniza III - Pre-Nups, Politics & Palestine",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/geniza-iii-pre-nups-politics-palestine/",
+   "audio": "https://mcdn.podbean.com/mf/web/2yrsw7/JLE_POD_66_FINAL_CUTb2q6s.mp3",
+   "date": "2022-05-17"
+  },
+  {
+   "n": 39,
+   "title": "Geniza II - The Contents",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/geniza-ii-the-contents/",
+   "audio": "https://mcdn.podbean.com/mf/web/u4w9hx/JLE_POD_65_Rabbi_Hersh89n5l.mp3",
+   "date": "2022-05-10"
+  },
+  {
+   "n": 38,
+   "title": "Geniza I - The Scandals",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/geniza-i-the-scandals/",
+   "audio": "https://mcdn.podbean.com/mf/web/c68bfk/JLE_POD_64_Rabbi_Hersh91l6d.mp3",
+   "date": "2022-05-03"
+  },
+  {
+   "n": 37,
+   "title": "Pesach II - War & Peace",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/pesach-ii-war-peace/",
+   "audio": "https://mcdn.podbean.com/mf/web/pa646w/JLE_POD_63_R_Hersh9pjis.mp3",
+   "date": "2022-04-26"
+  },
+  {
+   "n": 36,
+   "title": "Pesach I - Unusual Texts",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/pesach-i-unusual-texts/",
+   "audio": "https://mcdn.podbean.com/mf/web/5wp64c/JLE_POD_62_R_Hersh7dfmq.mp3",
+   "date": "2022-04-19"
+  },
+  {
+   "n": 35,
+   "title": "Ramchal II - Amsterdam 1736 (featuring Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/ramchal-ii-amsterdam-1736-featuring-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/gdacu3/JLE_POD_61_MASTER_R_Hersh_and_R_Tatzbkry9.mp3",
+   "date": "2022-04-07"
+  },
+  {
+   "n": 34,
+   "title": "Ramchal I - Italy 1707 (featuring Rabbi Dr Akiva Tatz)",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/ramchal-i-italy-1707-feat-rabbi-dr-akiva-tatz/",
+   "audio": "https://mcdn.podbean.com/mf/web/xky4hk/JLE_POD_59_R_Hersh_with_R_Tatz7k79r.mp3",
+   "date": "2022-04-01"
+  },
+  {
+   "n": 33,
+   "title": "16th Century Poland IV - The Legend & the Council",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/16th-century-poland-iv-the-legend-the-council/",
+   "audio": "https://mcdn.podbean.com/mf/web/tcgcyz/JLE_POD_57_R_Hersh6nl2h.mp3",
+   "date": "2022-03-23"
+  },
+  {
+   "n": 32,
+   "title": "16th Century Poland III - Understanding Ukraine & and the Identity of Ashkenazim",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/16th-c-poland-iii-understanding-ukraine-and-the-identity-of-ashkenazim/",
+   "audio": "https://mcdn.podbean.com/mf/web/4h9q3v/JLE_POD_56_R_Hersh_MASTER8p4zq.mp3",
+   "date": "2022-03-15"
+  },
+  {
+   "n": 31,
+   "title": "16th Century Poland II - The Maharshal & The Rema",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/16th-century-poland-ii-the-maharshal-the-rema/",
+   "audio": "https://mcdn.podbean.com/mf/web/4p5n98/JLE_POD_53_R_Hersh72mxs.mp3",
+   "date": "2022-03-02"
+  },
+  {
+   "n": 30,
+   "title": "16th Century Poland I - Roots & Origins",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/16th-c-poland-i-roots-origins/",
+   "audio": "https://mcdn.podbean.com/mf/web/bgbtm3/JLE_POD_52_R_Hersh6i4jl.mp3",
+   "date": "2022-02-22"
+  },
+  {
+   "n": 29,
+   "title": "Purim Kattan II - Casablanca, Prague & Rhodes 1620-1944",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/purim-kattan-ii-casablanca-prague-rhodes-1620-1944/",
+   "audio": "https://mcdn.podbean.com/mf/web/djtjpv/JLE_POD_51_R_Hersh6addt.mp3",
+   "date": "2022-02-16"
+  },
+  {
+   "n": 28,
+   "title": "Purim Kattan I- The Soviet Union & Cairo: 1524-1954",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/purim-kattan-i-the-soviet-union-cairo-1524-1954/",
+   "audio": "https://mcdn.podbean.com/mf/web/qprff7/JLE_POD_50_R_Hersh7rqir.mp3",
+   "date": "2022-02-08"
+  },
+  {
+   "n": 27,
+   "title": "Provence IV - Faith & Perseverance: 1305-1791",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/provence-iv-faith-perseverance-1305-1791/",
+   "audio": "https://mcdn.podbean.com/mf/web/5ztjeu/JLE_POD_49_R_Hersh6rvw5.mp3",
+   "date": "2022-02-01"
+  },
+  {
+   "n": 26,
+   "title": "Provence III - The Controversies: 1191-1305",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/provence-iii-the-controversies-1191-1305/",
+   "audio": "https://mcdn.podbean.com/mf/web/i6gg3d/JLE_POD_48_R_Hersh9jrw5.mp3",
+   "date": "2022-01-25"
+  },
+  {
+   "n": 25,
+   "title": "Provence II - Scholars & Opponents: 1150-1200",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/provence-ii-scholars-opponents-1150-1200/",
+   "audio": "https://mcdn.podbean.com/mf/web/wscar3/JLE_POD_47_R_Hersh7y6wg.mp3",
+   "date": "2022-01-18"
+  },
+  {
+   "n": 24,
+   "title": "Provence I - Independence & Courage :330-1860",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/provence%c2%a0i-330-1860/",
+   "audio": "https://mcdn.podbean.com/mf/web/mtrw7p/JLE_POD_46_R_Hersh84ls6.mp3",
+   "date": "2022-01-11"
+  },
+  {
+   "n": 23,
+   "title": "Time III - The Holocaust Calendars: 1944",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/time-iii-the-holocaust-calendars-1944/",
+   "audio": "https://mcdn.podbean.com/mf/web/ad2jwh/JLE_POD_41_-_Holocaust_-_R_Hershbghkq.mp3",
+   "date": "2021-12-13"
+  },
+  {
+   "n": 22,
+   "title": "Time II - The Schism: 921-923",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/time-ii-the-schism-921/",
+   "audio": "https://mcdn.podbean.com/mf/web/grxzei/JLE_POD_40_MASTER_R_Hershaywrr.mp3",
+   "date": "2021-12-08"
+  },
+  {
+   "n": 21,
+   "title": "Time I - The Journey: 882",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/time-i-the-journey-882/",
+   "audio": "https://mcdn.podbean.com/mf/web/wv3qsp/JLE_Pod_39_R_Hersh9h9lp.mp3",
+   "date": "2021-11-30"
+  },
+  {
+   "n": 20,
+   "title": "Political intrigues III - London: 1655",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/political-intrigues-iii-london-1655/",
+   "audio": "https://mcdn.podbean.com/mf/web/6esq95/JLE_Pod_38_R_Hersh9ktsu.mp3",
+   "date": "2021-11-23"
+  },
+  {
+   "n": 19,
+   "title": "Political intrigues II - Italy: 1556",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/political-intrigues-ii-italy-1556/",
+   "audio": "https://mcdn.podbean.com/mf/web/s75zrt/JLE_POD_37_FINAL_MASTER82azy.mp3",
+   "date": "2021-11-16"
+  },
+  {
+   "n": 18,
+   "title": "Political Intrigues I - Paris: 1894",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/political-intrigues-i-paris-1894/",
+   "audio": "https://mcdn.podbean.com/mf/web/48patu/JLE_Pod_36_R_Hersh69pk5.mp3",
+   "date": "2021-11-11"
+  },
+  {
+   "n": 17,
+   "title": "American Beginnings V - The Passport: 1911",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/american-beginnings-v-the-passport-1911/",
+   "audio": "https://mcdn.podbean.com/mf/web/rpm9q7/JLE_Pod_35_R_Hersh6fvom.mp3",
+   "date": "2021-11-04"
+  },
+  {
+   "n": 16,
+   "title": "American Beginnings IV - The Immigrant: 1905",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/american-beginnings-iv-the-immigrant-1905/",
+   "audio": "https://mcdn.podbean.com/mf/web/83kpvu/JLE_Pod_29_R_Hersh9myec.mp3",
+   "date": "2021-10-26"
+  },
+  {
+   "n": 15,
+   "title": "American Beginnings III - The Passage: 1881",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/american-beginnings-iii-the-passage-1881/",
+   "audio": "https://mcdn.podbean.com/mf/web/aivpmu/JLE_Pod_28_R_Hershaiok1.mp3",
+   "date": "2021-10-19"
+  },
+  {
+   "n": 14,
+   "title": "American Beginnings II - California: 1851",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/american-beginnings-ii-california-1851/",
+   "audio": "https://mcdn.podbean.com/mf/web/z4ut93/JLE_Pod_27_R_Hersh853au.mp3",
+   "date": "2021-10-12"
+  },
+  {
+   "n": 13,
+   "title": "American Beginnings I- The Jewish Spy: 1776",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-jewish-spy-1776/",
+   "audio": "https://mcdn.podbean.com/mf/web/7vaqi8/JLE_Pod_26_R_Hersh9g5wi.mp3",
+   "date": "2021-10-05"
+  },
+  {
+   "n": 12,
+   "title": "Controversial Prayers III- The Angels 1609",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/controversial-prayers-iii-the-angels-1609/",
+   "audio": "https://mcdn.podbean.com/mf/web/vjvaeh/JLE_Pod_25_R_Hersh6jr05.mp3",
+   "date": "2021-09-23"
+  },
+  {
+   "n": 11,
+   "title": "Controversial Prayers II - Amsterdam 1708",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/controversial-prayers-ii-amsterdam-1708/",
+   "audio": "https://mcdn.podbean.com/mf/web/7aghnb/JLE_Pod_24_R_Hersh8gixs.mp3",
+   "date": "2021-09-14"
+  },
+  {
+   "n": 10,
+   "title": "Controversial Prayers I - The Czar: 1861",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/controversial-prayers-i-the-czar-1861/",
+   "audio": "https://mcdn.podbean.com/mf/web/hmn2da/JLE_Pod_23_R_Hershaijm9.mp3",
+   "date": "2021-09-01"
+  },
+  {
+   "n": 9,
+   "title": "Prague IV - The Edict of Tolerance: 1782",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/prague-4-the-edict-of-tolerance-1782/",
+   "audio": "https://mcdn.podbean.com/mf/web/fudupe/JLE_Pod_219o92h.mp3",
+   "date": "2021-08-26"
+  },
+  {
+   "n": 8,
+   "title": "Prague III - The Exile: 1745",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/prague-3-the-exile-1745/",
+   "audio": "https://mcdn.podbean.com/mf/web/m9hpyf/JLE_Pod_20_R_Hersh7k0v1.mp3",
+   "date": "2021-08-17"
+  },
+  {
+   "n": 7,
+   "title": "Prague II - The Priest: 1726",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/prague-2-the-priest%c2%a01726/",
+   "audio": "https://mcdn.podbean.com/mf/web/t8hg6e/JLE_Pod_16_R_Hersha2ara.mp3",
+   "date": "2021-08-04"
+  },
+  {
+   "n": 6,
+   "title": "Prague I- The Books: 1704",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/1704-prague-the-books/",
+   "audio": "https://mcdn.podbean.com/mf/web/8fes9z/JLE_Pod_15_R_Hersh5zhz8.mp3",
+   "date": "2021-07-20"
+  },
+  {
+   "n": 2,
+   "title": "Holocaust Dilemmas III- The Fugitive: 1944",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-fugitive-1944/",
+   "audio": "https://mcdn.podbean.com/mf/web/zbjdtb/JLE_Pod_14_R_Hersh6yv0s.mp3",
+   "date": "2021-07-14"
+  },
+  {
+   "n": 2,
+   "title": "Holocaust Dilemmas II- The Kapo: 1943",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-kapo-1943/",
+   "audio": "https://mcdn.podbean.com/mf/web/jhuhhh/JLE_Pod_13_R_Hersh60fgg.mp3",
+   "date": "2021-07-07"
+  },
+  {
+   "n": 1,
+   "title": "Holocaust Dilemmas I - The Rabbi: 1941",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/holocaust-dilemas-the-rabbi-1941/",
+   "audio": "https://mcdn.podbean.com/mf/web/zi4h8f/JLE_Pod_12_R_Hershbpjcs.mp3",
+   "date": "2021-06-29"
+  },
+  {
+   "n": 5,
+   "title": "Scandals in UK IV- The Chancellor: 1912 pt.2/2",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/1912-the-chancellor-pt22/",
+   "audio": "https://mcdn.podbean.com/mf/web/z9hr78/JLE_Pod_07b_R_Hershbk9v6.mp3",
+   "date": "2021-06-21"
+  },
+  {
+   "n": 4,
+   "title": "Scandals in UK IV- The Chancellor: 1912 pt.1/2",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/1912-the-chancellor-pt12/",
+   "audio": "https://mcdn.podbean.com/mf/web/qstq4f/JLE_Pod_07_R_Hersh_1_9lfqy.mp3",
+   "date": "2021-06-15"
+  },
+  {
+   "n": 3,
+   "title": "Scandals in UK III- The Renegade: 1817",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-renegade/",
+   "audio": "https://mcdn.podbean.com/mf/web/n4dxe3/JLE_Pod_06_R_Hersha3c77.mp3",
+   "date": "2021-06-08"
+  },
+  {
+   "n": 2,
+   "title": "Scandals in UK II - The Cherem: 1705",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/the-cherem/",
+   "audio": "https://mcdn.podbean.com/mf/web/vyybww/Rabbi_Hersh_S1_Ep29q0p8.mp3",
+   "date": "2021-05-31"
+  },
+  {
+   "n": 1,
+   "title": "Scandals in UK I- The Coins: 1278",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/1278-the-coins/",
+   "audio": "https://mcdn.podbean.com/mf/web/r2e2yd/JLE_POD_04_FINAL_MASTERa9anz.mp3",
+   "date": "2021-05-26"
   }
  ]
 }
