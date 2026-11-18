@@ -1,0 +1,31 @@
+# Copies borrowed pictures into the website: the old website's pictures and logo, and the picture-library photos
+# (with their photographer credits). Also finds photos for any new place added to src/content/places.js.
+# Runs by itself whenever places.js, site.js or tours.js change. To run it now: GitHub > Actions > "Save pictures" > Run workflow.
+name: Save pictures
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - src/content/places.js
+      - src/content/site.js
+      - src/content/tours.js
+      - src/content/regions.js
+permissions:
+  contents: write
+concurrency: save-pictures
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/save-pictures.mjs
+      - name: Save the pictures into the website (it then rebuilds itself)
+        run: |
+          git config user.name "website-bot"
+          git config user.email "website-bot@users.noreply.github.com"
+          git add public/img src/content
+          git diff --cached --quiet || (git commit -m "Save pictures into the website" && git pull --rebase && git push)

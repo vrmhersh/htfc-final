@@ -1,0 +1,24 @@
+# Keeps the Podcast page up to date by itself: reads the podcast feed and saves the episode list into the website.
+# Runs four times a day. To run it now: GitHub > Actions > "Update podcast" > Run workflow.
+name: Update podcast
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/update-podcast.mjs
+      - name: Save the new episode list (the website then rebuilds itself)
+        run: |
+          git config user.name "website-bot"
+          git config user.email "website-bot@users.noreply.github.com"
+          git add src/content/episodes.json
+          git diff --cached --quiet || (git commit -m "Podcast: update episode list" && git push)
