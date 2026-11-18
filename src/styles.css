@@ -2,6 +2,9 @@
 *{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--navy);color:#f1ede4;line-height:1.75;font-size:1.06rem;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}a{color:inherit;text-decoration:none}ul,ol{padding:0}
+/* Body text on every page is Baskerville. The header, footer, headings, buttons, small labels and form fields keep their own fonts. */
+main{font-family:"Libre Baskerville",Baskerville,"Baskerville Old Face",Georgia,serif;font-size:.97rem;line-height:1.8}
+main .eyebrow,main .pill,main .phtag,main .plat-name,main .lbl,main input,main select,main textarea,main .eplist button{font-family:Inter,system-ui,sans-serif}
 .serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;line-height:1.1}
 h1{font-size:clamp(2.6rem,6vw,4.6rem)}h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:1.2rem}h3{font-size:1.7rem;margin:1.5rem 0 .6rem}
 p+p{margin-top:1.1em}.wrap{max-width:1160px;margin:0 auto;padding:0 24px}.narrow{max-width:800px}.narrow2{max-width:980px}.mx{margin-inline:auto}.center{text-align:center}.muted{opacity:.75;font-size:.95rem}
