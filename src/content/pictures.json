@@ -1,5 +1,216 @@
 {
-  "note": "Written by the Save pictures job (scripts/save-pictures.mjs). Do not edit by hand.",
-  "files": {},
-  "auto": {}
+ "note": "Written by the Save pictures job (scripts/save-pictures.mjs). Do not edit by hand.",
+ "files": {
+  "Esnoga.jpg": {
+   "src": "/img/places/esnoga.jpg",
+   "by": "Massimo Catarinella",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Notre Dame de la Garde.jpg": {
+   "src": "/img/places/notre-dame-de-la-garde.jpg",
+   "by": "Benh LIEU SONG",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Montpellier Place de la Comédie.jpg": {
+   "src": "/img/places/montpellier-place-de-la-comedie.jpg",
+   "by": "Wolfgang Staudt",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "Carpentras synagogue 02.jpg": {
+   "src": "/img/places/carpentras-synagogue-02.jpg",
+   "by": "Konradm",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Calanque d'En Vau-Cassis.jpg": {
+   "src": "/img/places/calanque-d-en-vau-cassis.jpg",
+   "by": "Tobi 87",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Roussillon sentier des ocres2.JPG": {
+   "src": "/img/places/roussillon-sentier-des-ocres2.jpg",
+   "by": "G CHP - G CHP",
+   "licence": "CC BY-SA 2.5",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "Marseille - Vieux-Port2.jpg": {
+   "src": "/img/places/marseille-vieux-port2.jpg",
+   "by": "Tiia Monto",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Avignon Palais des Papes vu du pont Saint-Bénézet.jpg": {
+   "src": "/img/places/avignon-palais-des-papes-vu-du-pont-saint-benezet.jpg",
+   "by": "François de Dijon",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Arch Titus, relief Jerusalem treasure, Forum Romanum, Rome, Italy.jpg": {
+   "src": "/img/places/arch-titus-relief-jerusalem-treasure-forum-romanum-rome-italy.jpg",
+   "by": "Jebulon",
+   "licence": "CC0",
+   "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "Les Arènes d'Arles.jpg": {
+   "src": "/img/places/les-arenes-d-arles.jpg",
+   "by": "Oakenchips",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Arles Amphitheatre, Arles, France.jpg": {
+   "src": "/img/places/arles-amphitheatre-arles-france.jpg",
+   "by": "Bokeby",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Great Synagogue of Rome,front view.jpg": {
+   "src": "/img/places/great-synagogue-of-rome-front-view.jpg",
+   "by": "Livioandronico2013",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Rue des Rosiers, Paris, France 01.jpg": {
+   "src": "/img/places/rue-des-rosiers-paris-france-01.jpg",
+   "by": "ninara from Helsinki, Finland",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "Campo del Ghetto Nuovo R01.jpg": {
+   "src": "/img/places/campo-del-ghetto-nuovo-r01.jpg",
+   "by": "Marc Ryckaert",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "MARSEILLE CALANQUE D'EN VAU.jpg": {
+   "src": "/img/places/marseille-calanque-d-en-vau.jpg",
+   "by": "Dolorette BERNARD",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Roussillon - Sentier des Ocres 22.jpg": {
+   "src": "/img/places/roussillon-sentier-des-ocres-22.jpg",
+   "by": "Own work",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Jewish quarter, rue des Rosiers, Le Marais, Paris 2016.jpg": {
+   "src": "/img/places/jewish-quarter-rue-des-rosiers-le-marais-paris-2016.jpg",
+   "by": "Guilhem Vellut from Paris, France",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "2016 Sinagoga Tempio Maggiore di Roma.jpg": {
+   "src": "/img/places/2016-sinagoga-tempio-maggiore-di-roma.jpg",
+   "by": "Jordiferrer",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Eiffel Tower @ Seine @ Paris (34343462864).jpg": {
+   "src": "/img/places/eiffel-tower-seine-paris-34343462864.jpg",
+   "by": "Guilhem Vellut from Paris, France",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "Pont Saint-Bénézet (Avignon).jpg": {
+   "src": "/img/places/pont-saint-benezet-avignon.jpg",
+   "by": "Gzen92",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Amsterdam - Daniel Meyerplein - Portuguese Synagogue 1675 - Interior View II.jpg": {
+   "src": "/img/places/amsterdam-daniel-meyerplein-portuguese-synagogue-1675-interior-view-ii.jpg",
+   "by": "Txllxt TxllxT",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Synagogue de Carpentras - salle de prière 1.jpg": {
+   "src": "/img/places/synagogue-de-carpentras-salle-de-priere-1.jpg",
+   "by": "Marianne Casamance",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Campo di Ghetto Nuovo, Venice (37516299820).jpg": {
+   "src": "/img/places/campo-di-ghetto-nuovo-venice-37516299820.jpg",
+   "by": "Dimitris Kamaras from Athens, Greece",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "Montpellier Place de la Comédie Opéra 1.jpg": {
+   "src": "/img/places/montpellier-place-de-la-comedie-opera-1.jpg",
+   "by": "Zairon",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Colorful windows and canal houses at blue hour with water reflection in Damrak Amsterdam Netherlands.jpg": {
+   "src": "/img/places/colorful-windows-and-canal-houses-at-blue-hour-with-water-reflection-i.jpg",
+   "by": "Basile Morin",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Inside old synagogue Krakow.JPG": {
+   "src": "/img/places/inside-old-synagogue-krakow.jpg",
+   "by": "Bart Van den Bosch ( Wintermute314 )",
+   "licence": "CC BY 2.5",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.5"
+  },
+  "Staronová synagoga, interiér.jpg": {
+   "src": "/img/places/staronova-synagoga-interier.jpg",
+   "by": "Jim Milles",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "Staronová synagoga 1.jpg": {
+   "src": "/img/places/staronova-synagoga-1.jpg",
+   "by": "Karelj",
+   "licence": "Public domain",
+   "licenceUrl": ""
+  },
+  "Stara Synagoga na krakowskim Kazimierzu, XV w..jpg": {
+   "src": "/img/places/stara-synagoga-na-krakowskim-kazimierzu-xv-w..jpg",
+   "by": "Kamil Durda",
+   "licence": "CC BY-SA 3.0 pl",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en"
+  },
+  "Karlův most z Kampy.JPG": {
+   "src": "/img/places/karluv-most-z-kampy.jpg",
+   "by": "David Sedlecký",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "Wiener Stadttempel - Innenraum.jpg": {
+   "src": "/img/places/wiener-stadttempel-innenraum.jpg",
+   "by": "Dnalor 01",
+   "licence": "CC BY-SA 3.0 at",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en"
+  },
+  "Stadttempel interieur.jpg": {
+   "src": "/img/places/stadttempel-interieur.jpg",
+   "by": "Bic",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Dohány Street Synagogue in Pest, Budapest - Hungary (5132509510).jpg": {
+   "src": "/img/places/dohany-street-synagogue-in-pest-budapest-hungary-5132509510.jpg",
+   "by": "Emmanuel DYAN from Paris, France",
+   "licence": "CC BY 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "Krakow - Kazimierz IMG 7531 Stara Synagoga ul Szeroka 24.jpg": {
+   "src": "/img/places/krakow-kazimierz-img-7531-stara-synagoga-ul-szeroka-24.jpg",
+   "by": "Bjoertvedt",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "Synagoge Budapest 2014.jpg": {
+   "src": "/img/places/synagoge-budapest-2014.jpg",
+   "by": "Choinowski",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+ },
+ "auto": {}
 }
