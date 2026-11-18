@@ -10,7 +10,10 @@
 //     price: "$1,950 per person", details: ["First paragraph.", "Second paragraph."], gallery: ["/img/v1.jpg", "/img/v2.jpg"] },
 // PRIVATE tours (status: "private") automatically show the shared private picture and text, so just give the title and dates.
 // To HIDE a tour without deleting it, add  hidden: true,
-const S = "https://historyforthecurious.com/storage/upcoming-tours/gallery/";
+// PICTURES ARE AUTOMATIC: the tour page reads the title, summary and details, spots the places it knows from
+//   src/content/places.js (Paris, Avignon, Prague ...) and builds the banner slideshow and the "Where we go" pictures by itself.
+//   To choose the places yourself add e.g.  places: ["paris", "amsterdam"],   To switch the automatic pictures off add  places: [],
+//   A tour's own  image: "/img/..."  still wins for the banner if you set one.
 export const tours = [
   { id: "italy-2026", title: "Italy", start: "2026-05-10", end: "2026-05-11", status: "open", details: [] },
   { id: "danube-cruise-2026", title: "Danube Riverboat Cruise", start: "2026-08-05", end: "2026-08-12", status: "open", details: [] },
@@ -26,7 +29,11 @@ export const tours = [
       "Monday 17th – Thursday 20th May 2027.",
       "Including Sentier des Ocres, medieval Avignon, ancient Carpentras and the village of Vauvert, as well as Montpellier, Arles and the magnificent shul in Marseille. To end, a private boat tour of the Calanques.",
     ],
-    gallery: ["7K9UGlCj8h", "KRLmCiGc6F", "LO6twqBHwj", "bxuZevU3gU"].map((k) => S + `upcoming_tour_${k}.webp`) },
+    gallery: [
+      "https://historyforthecurious.com/storage/upcoming-tours/gallery/upcoming_tour_7K9UGlCj8h.webp",
+      "https://historyforthecurious.com/storage/upcoming-tours/gallery/upcoming_tour_KRLmCiGc6F.webp",
+      "https://historyforthecurious.com/storage/upcoming-tours/gallery/upcoming_tour_LO6twqBHwj.webp",
+      "https://historyforthecurious.com/storage/upcoming-tours/gallery/upcoming_tour_bxuZevU3gU.webp" ] },
   { id: "holland", title: "Holland", start: "2027-07-12", end: "2027-07-15", status: "open", details: [] },
   { id: "Fake-Tour-Vrm", title: "Avrumi's imagination", start: "2027-01-01", end: "2027-01-02", status: "open",
     summary: "Begining in the Hanging Gardens of Babylon, Followed by Herds of Wildebeast Sweeping Down the Savannah and Ending in Torquay",

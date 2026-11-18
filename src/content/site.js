@@ -1,7 +1,10 @@
 // ===== EDIT ME: general website details =====
-const S = "https://historyforthecurious.com/storage/";
 export const site = {
   name: "History for the Curious",
+  // The website address (no slash at the end). Used for the WhatsApp / social link previews and the sitemap.
+  url: "https://historyforthecurious.com",
+  // PODCAST FEED: the episode list on the Podcast page updates itself from this address (see README > Podcast).
+  podcastFeed: "https://feed.podbean.com/rabbiaubreyhersh/feed.xml", applePodcastId: "1575900426",
   logo: "https://historyforthecurious.com/images/logo.png",
   tagline: "Turning Curiosity into Knowledge",
   email: "historyforthecurious@gmail.com",
@@ -32,15 +35,15 @@ export const site = {
   privateText: "For all future open tours, please consult further upcoming tours list or contact us by whatsapp +1 (848) 352 5744 or email to: giana.elav@gmail.com.",
   // Home page slideshow: add or remove lines
   slides: [
-    { img: S + "homepage/header-slider/header_slider_IfXpXGsXHR.webp", text: "Step In To The Past" },
-    { img: S + "homepage/header-slider/header_slider_ChJDSWsQDy.webp", text: "Walk Through Time" },
-    { img: S + "homepage/header-slider/header_slider_9IwR6zQYBn.webp", text: "Bring History To Life" },
+    { img: "https://historyforthecurious.com/storage/homepage/header-slider/header_slider_IfXpXGsXHR.webp", text: "Step In To The Past" },
+    { img: "https://historyforthecurious.com/storage/homepage/header-slider/header_slider_ChJDSWsQDy.webp", text: "Walk Through Time" },
+    { img: "https://historyforthecurious.com/storage/homepage/header-slider/header_slider_9IwR6zQYBn.webp", text: "Bring History To Life" },
   ],
   images: {
-    tours: S + "header-images/tours_header_image_PjzUFb6NlK.webp",
-    writings: S + "header-images/writing_header_image_uOkSS1TooF.webp",
-    upcoming: S + "homepage/upcoming-events/upcoming_image_FoQTCQoASc.webp",
-    pastStrip: ["XCiI0KYtpp", "K3PR0PRR8K", "fBPqfhmJ3e", "5sq2XPCSPC"].map((k) => S + `homepage/tour-slider/tour_slider_${k}.webp`),
+    tours: "https://historyforthecurious.com/storage/header-images/tours_header_image_PjzUFb6NlK.webp",
+    writings: "https://historyforthecurious.com/storage/header-images/writing_header_image_uOkSS1TooF.webp",
+    upcoming: "https://historyforthecurious.com/storage/homepage/upcoming-events/upcoming_image_FoQTCQoASc.webp",
+    pastStrip: ["https://historyforthecurious.com/storage/homepage/tour-slider/tour_slider_XCiI0KYtpp.webp", "https://historyforthecurious.com/storage/homepage/tour-slider/tour_slider_K3PR0PRR8K.webp", "https://historyforthecurious.com/storage/homepage/tour-slider/tour_slider_fBPqfhmJ3e.webp", "https://historyforthecurious.com/storage/homepage/tour-slider/tour_slider_5sq2XPCSPC.webp"],
   },
   stats: [["30", "years educating, lecturing and writing"], ["250+", "heritage tours led across Europe"], ["18,000", "weekly podcast listeners"]],
   pastCountries: "Austria, Czechia, France, Germany, Greece, Hungary, Italy, Lithuania, Holland, Poland, Portugal, Russia, Slovakia, Spain and Ukraine",
@@ -57,7 +60,7 @@ export const site = {
     "His talks are designed to educate, inspire curiosity and foster a nuanced understanding of Yiddishkeit and Jewish heritage.",
   ],
   // HOME PAGE: the picture under "Articles and Musings" (it links to the Writings page). Swap for your own, e.g. "/img/writings.jpg".
-  homeWritingsImage: S + "header-images/writing_header_image_uOkSS1TooF.webp",
+  homeWritingsImage: "https://historyforthecurious.com/storage/header-images/writing_header_image_uOkSS1TooF.webp",
   // ABOUT PAGE SLIDESHOW: put each picture in public/img and set img to e.g. "/img/un.jpg". Add or remove lines freely.
   // (Captions for the first three are taken from the old website. Photo 4 needs a caption.)
   aboutPhotos: [

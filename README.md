@@ -7,11 +7,39 @@ Everything you will want to change is in the folder **`src/content`**. On GitHub
 | Add, edit or hide **tours** | `src/content/tours.js` |
 | The three **region pages** (Western, Eastern, Central Europe): their pictures and 20-photo galleries with captions | `src/content/regions.js` |
 | **Pictures** behind each page title, home video, private-tour picture, podcast graphic, About photos, contact details, WhatsApp, LinkedIn, About text | `src/content/site.js` |
-| **Podcast** episodes that play on the site, podcast platform links, phone numbers | `src/content/podcast.js` |
+| **Picture library**: the places you tour, whose pictures fill tour pages by themselves | `src/content/places.js` |
+| **Podcast** platform links, phone numbers, wording (the episode list updates itself) | `src/content/podcast.js` |
 | **Articles and musings** (the download buttons) | `src/content/writings.js` |
 | **Lectures**: recordings, links, lecture list | `src/content/lectures.js` |
 | **Podcast sponsorship** page wording | `src/content/sponsor.js` |
 | **Testimonials** | `src/content/testimonials.js` |
+
+## One-time setup on GitHub (two buttons)
+The website has two helpers that run on GitHub by themselves. After uploading these files, start each one once:
+1. Open the repository on GitHub and click **Actions** (if asked, click the green button to enable workflows).
+2. Click **Save pictures** on the left, then **Run workflow**. It copies every picture still borrowed from the old website (and the logo) into `public/img/old`, repoints the links, saves the picture-library photos into `public/img/places` and adds their photographer credits. **Do this before the domain moves.** Open the finished run to read its report: it lists anything it could not fetch.
+3. Click **Update podcast**, then **Run workflow**. From then on it runs four times a day.
+
+Both helpers save their results into the repository, and the site rebuilds itself. If a run fails with a "permission" message, go to **Settings > Actions > General > Workflow permissions** and choose **Read and write permissions**. The helper files live in the folder `.github/workflows`; when uploading by hand, make sure that folder is included (it is hidden on some computers).
+
+## Tour pages build their own pictures
+`src/content/places.js` is a picture library: a few captioned photos for each place you tour. When a tour's title, summary or details mention a place in the library, that tour gets, with no extra work:
+- a slideshow banner behind its title,
+- a **Where we go** row of pictures further down,
+- its picture card on the Tours page, and the picture shown when its link is shared on WhatsApp.
+
+So a tour called "Paris & Beyond" shows Paris; a summary that lists "Avignon, Carpentras, Arles" shows those three in that order. A country or area name ("Provence", "Italy", "Central Europe") works too. The library is used on tour pages only: the three region pages keep their own 20 picture slots each, which you fill yourself in `regions.js`.
+- **New place, no picture hunting:** copy the one-line example at the top of `places.js` and change the name. The Save pictures helper finds up to three good free-licence photos for it and saves them.
+- **Your own photo:** upload it to `public/img` and add `{ img: "/img/my-photo.jpg", caption: "..." },` as the first line of that place.
+- **Don't like a picture?** Delete its line.
+- **Per tour:** `places: ["paris", "amsterdam"],` chooses the places yourself; `places: [],` switches the pictures off; `image: "/img/..."` sets one fixed banner.
+- The photos come from Wikimedia Commons under free licences that require a credit, which the pages show in small print. Please keep the credits.
+
+## Link previews (WhatsApp, iMessage, Facebook)
+Every page now has its own title, description and picture for link previews; this happens during each build (`scripts/share-pages.mjs`). Tours use their first library picture, other pages their banner, and anything without a picture uses `public/share.jpg` (swap that file to change the default; keep it 1200 x 630 and under 300 KB). Set your real address in `site.js` > `url`. WhatsApp remembers old previews for a while; to test a fresh one, add `?v=2` to the end of the link.
+
+## Testimonials on the home page and tour pages
+`src/content/testimonials.js` > `featuredNames` chooses the three shown on the home page and on tour pages. Give a quote a third part, e.g. `"provence"`, and it appears first on tours with that word in their title.
 
 ## Adding a new tour
 Open `src/content/tours.js`, copy one whole block from `{` to `},`, paste it underneath, and change the words. The template is at the top of the file.
@@ -49,8 +77,10 @@ Upload a short, silent-friendly `.mp4` (10 to 20 seconds, under 8 MB is best) to
 Upload each file into **`public/docs`**. The file name must match the name in `src/content/writings.js` exactly (see `public/docs/README.txt` for the full list). To add a new one, upload it and add one line to `writings.js`.
 
 ## Podcast
-- The player on the Podcast page plays the episodes listed in `src/content/podcast.js` (newest first). To add a new episode, copy one line to the top and change the number, title, `id` and `slug` (instructions in the file).
-- Optional: paste a Podbean "playlist" embed link into `site.js` > `podbeanEmbed` to show a whole-podcast player that updates by itself.
+- **The episode list updates itself.** The Update podcast helper reads the podcast feed (`site.js` > `podcastFeed`) four times a day and saves the list into `src/content/episodes.json`. New episodes appear on the Podcast page within a few hours, with a search box and the site's own player. Nothing to edit.
+- Until the helper has run for the first time, the page shows the eleven episodes that were typed in by hand.
+- If the feed address ever changes, the helper looks it up from Apple Podcasts and tells you the new address in its report.
+- Optional: paste a Podbean "playlist" embed link into `site.js` > `podbeanEmbed` to show Podbean's own whole-podcast player instead.
 - Lecture recordings: upload `.mp3` files to `public/audio` and set `src` in `lectures.js`.
 
 ## Contact form
@@ -59,4 +89,4 @@ The form sends messages to `historyforthecurious@gmail.com` without opening anyo
 - **Alternative:** create a free key at web3forms.com using the inbox address, paste it into `site.js` > `web3formsKey`, and the form uses Web3Forms instead.
 
 ## Before moving the domain
-Many pictures (and the logo) still load from the old website. Download them first and upload them to `public/img`, otherwise they disappear when the old site goes. The same goes for the documents in `public/docs`.
+Run the **Save pictures** helper (see "One-time setup" above) and read its report. When it says all pictures are saved, nothing depends on the old website any more. The articles in `public/docs` still need uploading by hand (see `public/docs/README.txt`).

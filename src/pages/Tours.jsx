@@ -4,7 +4,11 @@ import { site } from "../content/site.js";
 import { tours } from "../content/tours.js";
 import { regions } from "../content/regions.js";
 import { WhatsAppLogo } from "../Logos.jsx";
-import { Btn, Gallery, Page, Pic, Reveal, Status, TourRow, dates, past, today, upcoming } from "../ui.jsx";
+import { Btn, Credits, Gallery, Page, Pic, PlaceGrid, Reveal, Status, TourCard, TourRow, Voices, dates, past, today, upcoming } from "../ui.jsx";
+import { tourPictures } from "../pictures.js";
+
+// The picture for a tour on the Tours page: its own image, the shared private picture, or the first one from the picture library.
+const cardPic = (t) => { const own = t.status === "private" ? site.privateImage : t.image; return own ? { img: own } : { pic: tourPictures(t).first }; };
 
 const WaBtn = () => <Btn href={site.whatsapp} className="ghost"><WhatsAppLogo size={20} className="wa-ic" /> Join our WhatsApp group</Btn>;
 
@@ -17,10 +21,13 @@ export function NotFound() {
 /* ===== /tours : upcoming tours, then past tours, then the three region pictures ===== */
 export function Tours() {
   const up = upcoming(), pa = past();
+  const cards = up.map((t) => ({ t, ...cardPic(t) }));
   return (<Page title="Tours" img={site.pageImages.tours} hint="site.js → pageImages.tours">
-    <section className="band navy"><div className="wrap narrow">
+    <section className="band navy"><div className="wrap">
       <h2 className="serif">Upcoming tours</h2>
-      <div className="tlist">{up.length ? up.map((t) => <TourRow key={t.id} t={t} />) : <p>New tours will be announced soon. Join the WhatsApp group to hear first.</p>}</div>
+      {up.length ? <div className="cards3 tcards">{cards.map((c, k) => <Reveal key={c.t.id} delay={(k % 3) * 100}><TourCard {...c} /></Reveal>)}</div>
+        : <p>New tours will be announced soon. Join the WhatsApp group to hear first.</p>}
+      <Credits pics={cards.map((c) => c.pic)} />
     </div></section>
 
     <section className="band green"><div className="wrap narrow">
@@ -36,7 +43,8 @@ export function Tours() {
             <h3 className="serif">{r.title}</h3>
           </Link>
         </Reveal>)}
-    </div></div></section>
+    </div>
+    </div></section>
 
     <section className="band green"><div className="wrap narrow center">
       {site.toursIntro.map((p) => <p key={p}>{p}</p>)}
@@ -50,7 +58,9 @@ export function Region() {
   const { slug } = useParams(); const r = regions.find((x) => x.slug === slug);
   if (!r) return <NotFound />;
   return (<Page title={r.title} tab={`${r.title} photos`} img={r.img} hint="src/content/regions.js → img">
-    <section className="band navy"><div className="wrap"><Gallery items={r.gallery} hint="src/content/regions.js → gallery" /></div></section>
+    <section className="band navy"><div className="wrap">
+      <Gallery items={r.gallery} hint="src/content/regions.js → gallery" />
+    </div></section>
   </Page>);
 }
 
@@ -59,17 +69,20 @@ export function TourPage() {
   const { id } = useParams(); const t = tours.find((x) => x.id === id && !x.hidden);
   if (!t) return <NotFound />;
   const priv = t.status === "private"; const over = t.end < today();
-  const banner = priv ? site.privateImage : (t.image || site.pageImages.tours);
+  const own = priv ? site.privateImage : t.image; // a picture you chose yourself always wins
+  const lib = tourPictures(t);                      // otherwise the page builds itself from the picture library
+  const banner = own || (lib.banner.length ? "" : site.pageImages.tours);
   const full = t.status === "soldout" || t.status === "waitlist";
   const enquiry = `/contact?tour=${encodeURIComponent(`${t.title} (${dates(t)})`)}`;
   const hasInfo = t.summary || (t.details && t.details.length) || t.leaders || t.price;
-  return (<Page title={t.title} img={banner} hint={priv ? "site.js → privateImage (shared by all private tours)" : "this tour's image in src/content/tours.js"}>
+  return (<Page title={t.title} img={banner} imgs={lib.banner.map((p) => p.src(1920))} tall={!own && lib.banner.length > 0} hint={priv ? "site.js → privateImage (shared by all private tours)" : "this tour's image in src/content/tours.js"}>
     <section className="band navy"><div className="wrap narrow">
       <p className="eyebrow">{dates(t)} <Status t={t} /></p>
       {priv ? <>
         <p className="lead">{site.privateText}</p>
         <div className="btns"><Btn href={site.whatsappPm}><WhatsAppLogo size={20} className="wa-ic dark" /> WhatsApp {site.whatsappPmDisplay}</Btn>
           <Btn href={`mailto:${site.adminEmail}`} className="ghost"><Mail size={18} /> {site.adminEmail}</Btn></div>
+        {!own && <Credits pics={lib.banner} />}
       </> : <>
         {t.summary && <p className="lead">{t.summary}</p>}
         {(t.details || []).map((p) => <p key={p}>{p}</p>)}
@@ -82,5 +95,11 @@ export function TourPage() {
       </>}
       <div className="btns"><Btn to="/tours" className="ghost">All tours</Btn></div>
     </div></section>
+
+    {!priv && lib.cards.length > 0 && <section className="band green"><div className="wrap">
+      <Reveal><h2 className="serif center">Where we go</h2></Reveal>
+      <PlaceGrid pics={lib.cards} /><Credits pics={[...lib.banner, ...lib.cards]} />
+    </div></section>}
+    {!priv && <Voices tour={t} tone={lib.cards.length ? "navy" : "green"} />}
   </Page>);
 }

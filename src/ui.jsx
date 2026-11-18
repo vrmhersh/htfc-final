@@ -5,6 +5,8 @@ import { ArrowRight, ChevronLeft, ChevronRight, Image as ImageIcon } from "lucid
 import { site } from "./content/site.js";
 import { tours } from "./content/tours.js";
 import { platforms } from "./content/podcast.js";
+import { testimonials, featuredNames } from "./content/testimonials.js";
+import { norm } from "./match.js";
 import { SpotifyLogo, YouTubeLogo, AppleLogo } from "./Logos.jsx";
 
 /* ---------- tours: sorting and dates ---------- */
@@ -56,18 +58,38 @@ export const Pic = ({ src, alt = "", label, hint, ratio, className = "", ...p })
   src ? <img className={className} src={src} alt={alt} loading="lazy" {...p} /> : <Ph label={label} hint={hint} ratio={ratio} className={className} />;
 
 /* ---------- page banner (the picture behind each page title) ---------- */
-export function Banner({ title, img, hint, children }) {
+const noMotion = () => typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+// Loads pictures in the background and returns only the ones that really arrived (so a missing picture never shows as a broken box).
+function useLoaded(urls) {
+  const key = urls.join("|"); const [ok, setOk] = useState([]);
+  useEffect(() => {
+    let live = true; setOk([]);
+    urls.forEach((u) => { const im = new Image(); im.onload = () => live && setOk((a) => urls.filter((x) => x === u || a.includes(x))); im.src = u; });
+    return () => { live = false; };
+  }, [key]);
+  return ok;
+}
+// imgs = several pictures: they fade into one another behind the title (used by the tour pages).
+export function Banner({ title, img, imgs, tall, hint, children }) {
+  const many = !img && imgs && imgs.length > 0;
+  const slides = useLoaded(many ? imgs : []); const n = slides.length; const [i, setI] = useState(0);
+  useEffect(() => {
+    if (n < 2 || noMotion()) return;
+    const id = setInterval(() => setI((x) => x + 1), 6500); return () => clearInterval(id);
+  }, [n]);
+  const has = img || n > 0;
   return (
-    <section className={`pagehead${img ? "" : " noimg"}`} style={img ? { backgroundImage: `url("${img}")` } : undefined}>
+    <section className={`pagehead${has ? "" : " noimg"}${tall ? " tall" : ""}`} style={img ? { backgroundImage: `url("${img}")` } : undefined}>
+      {slides.map((u, k) => <div key={u} className={`slide kb${k === i % n ? " on" : ""}`} style={{ backgroundImage: `url("${u}")` }} />)}
       <div className="shade" />
       <div className="pagehead-in"><h1 className="serif">{title}</h1>{children}</div>
-      {!img && site.showPlaceholders && hint && <span className="phtag"><ImageIcon size={14} aria-hidden="true" /> Banner picture goes here · {hint}</span>}
+      {!has && !many && site.showPlaceholders && hint && <span className="phtag"><ImageIcon size={14} aria-hidden="true" /> Banner picture goes here · {hint}</span>}
     </section>
   );
 }
-export function Page({ title, tab, img, hint, children }) {
+export function Page({ title, tab, img, imgs, tall, hint, children }) {
   useTitle(tab || title);
-  return <><Banner title={title} img={img} hint={hint} />{children}</>;
+  return <><Banner title={title} img={img} imgs={imgs} tall={tall} hint={hint} />{children}</>;
 }
 
 /* ---------- slideshow (About page) ---------- */
@@ -115,6 +137,52 @@ export function Gallery({ items, hint }) {
   );
 }
 
+/* ---------- pictures from the picture library (src/content/places.js) ---------- */
+// A grid of place pictures with the place name and a caption. A picture that fails to load simply disappears.
+export function PlaceGrid({ pics, names = true }) {
+  const [bad, setBad] = useState([]);
+  return (
+    <ul className="gallery places">
+      {pics.filter((p) => !bad.includes(p.key)).map((p) => (
+        <li key={p.key}><figure>
+          <a href={p.src(1920)} target="_blank" rel="noopener noreferrer" aria-label={`Open picture: ${p.caption}`}>
+            <img src={p.src(960)} alt={p.caption} loading="lazy" onError={() => setBad((b) => [...b, p.key])} /></a>
+          <figcaption>{names && <b>{p.place}</b>}{p.caption}</figcaption>
+        </figure></li>
+      ))}
+    </ul>
+  );
+}
+// The photographer credits the free-licence pictures require. Your own photos need none, so they are skipped.
+export function Credits({ pics }) {
+  const list = pics.filter((p, k) => p && !p.own && pics.findIndex((q) => q && q.key === p.key) === k);
+  if (!list.length) return null;
+  return (
+    <p className="credits">Photos: {list.map((p, k) => <span key={p.key}>{k ? " · " : ""}
+      <a href={p.page} target="_blank" rel="noopener noreferrer">{p.by || p.caption}</a>
+      {p.licence && <> ({p.licenceUrl ? <a href={p.licenceUrl} target="_blank" rel="noopener noreferrer">{p.licence}</a> : p.licence})</>}</span>)}
+      {" "}via Wikimedia Commons.</p>
+  );
+}
+
+/* ---------- testimonials shown on the home page and tour pages (edit them in src/content/testimonials.js) ---------- */
+export function Voices({ tour, tone = "green" }) {
+  const all = testimonials.flatMap((y) => y.quotes.map(([q, name, tag]) => ({ q, name, tag, year: y.year })));
+  const text = tour ? norm(`${tour.title} ${tour.id}`) : "";
+  const tagged = tour ? all.filter((x) => x.tag && text.includes(norm(x.tag))) : [];
+  const featured = featuredNames.map((nm) => all.find((x) => x.name === nm)).filter(Boolean);
+  const list = [...tagged, ...featured.filter((x) => !tagged.includes(x))].slice(0, 3);
+  if (!list.length) return null;
+  return (
+    <section className={`band ${tone}`}><div className="wrap">
+      <Reveal><h2 className="serif center">{tour ? "What travellers say" : "What our travellers say"}</h2></Reveal>
+      <div className="cards3 voices">{list.map((x, k) => <Reveal key={x.name} delay={k * 100}>
+        <blockquote className="voice"><p className="serif">“{x.q}”</p><cite>{x.name}, {x.year}</cite></blockquote></Reveal>)}</div>
+      <div className="btns mid"><Btn to="/testimonials" className="ghost">More testimonials <ArrowRight size={18} /></Btn></div>
+    </div></section>
+  );
+}
+
 /* ---------- tours ---------- */
 export const Status = ({ t }) => <>{t.status !== "open" && LABEL[t.status] && <span className={`pill ${t.status}`}>{LABEL[t.status]}</span>}{t.note && <span className="pill note">{t.note}</span>}</>;
 export const TourRow = ({ t }) => (
@@ -122,6 +190,19 @@ export const TourRow = ({ t }) => (
     <span className="d">{dates(t)}</span><span className="n">{t.title} <Status t={t} /></span><ArrowRight size={18} aria-hidden="true" />
   </Link>
 );
+
+// A tour as a picture card (Tours page). pic comes from the picture library; without one the card shows a plain colour.
+export function TourCard({ t, pic, img }) {
+  const [bad, setBad] = useState(false); const src = img || (pic && pic.src(960));
+  return (
+    <Link className="tcard" to={`/tours/${t.id}`}>
+      <span className="timg">{src && !bad && <img src={src} alt="" loading="lazy" onError={() => setBad(true)} />}</span>
+      <span className="d">{dates(t)}</span>
+      <span className="n serif">{t.title}</span>
+      <span className="s"><Status t={t} /><ArrowRight size={18} aria-hidden="true" /></span>
+    </Link>
+  );
+}
 
 /* ---------- writings ---------- */
 export const DocList = ({ title, items }) => (
