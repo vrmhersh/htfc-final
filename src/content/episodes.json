@@ -1,7 +1,14 @@
 {
  "note": "Written by the Update podcast job (scripts/update-podcast.mjs). Do not edit by hand.",
- "updated": "2026-11-18",
+ "updated": "2026-11-24",
  "episodes": [
+  {
+   "n": 204,
+   "title": "On the Edge of the Kingdom: Jews of Metz, Alsace & Lorraine",
+   "link": "https://rabbiaubreyhersh.podbean.com/e/204-on-the-edge-of-the-kingdom-jews-of-metz-alsace-lorraine/",
+   "audio": "https://mcdn.podbean.com/mf/web/jg5eihaacchcymvy/HC099_-_Ep_204_-_Metz_Part_1_FINAL751gv.mp3",
+   "date": "2026-11-24"
+  },
   {
    "n": 203,
    "title": "Rome III - The Renaissance, Sforno & Edom",
